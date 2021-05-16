@@ -6,7 +6,7 @@ const MainText = () => {
         </b>
         <form>
             <input type="text" placeholder = "Search by Class..." style = {{fontSize: '17px'}} />
-            <input type= "submit" id = "subButton"class = "submit" value = "Search"/>
+            <input type= "submit" id = "subButton" className = "submit" value = "Search"/>
         </form>  
     </div>   
     );
