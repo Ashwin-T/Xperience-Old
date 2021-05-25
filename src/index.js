@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import firebase from 'firebase/app'
+  import firebase from 'firebase/app'
 
 const config = {
   apiKey: "AIzaSyCDuzirc5m7jvLfQlcw1pOXsC0s0Fg2J8A",
@@ -13,6 +13,7 @@ const config = {
   messagingSenderId: "945190412173",
   appId: "1:945190412173:web:41990b52cd9e337756a7c4",
   measurementId: "G-RV1P34P93Q"
+
 
 };
 

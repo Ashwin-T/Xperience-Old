@@ -42,6 +42,8 @@ form.addEventListener('submit', (e)=>{
   })
 
   */
+import { useEffect, useState } from "react";
+import firebase from "firebase/app";
 
 const QuestionList = () => {
     return (
