@@ -1,11 +1,12 @@
 import './App.css';
-import Navbar from './pages/Navbar';
-import MainText from './pages/MainText';
-import AboutText from './pages/AboutText';
-import HomeButtons from './pages/HomeButtons';
-import QuestionsAnswersText from './pages/QuestionsAnswersMainText';
+
+import Navbar from './pages/Navbar.js';
+
+import Default from './pages/default/default.jsx'
+import Home from './pages/home/home.jsx'
+import Questions from './pages/questions/questions.jsx'
+import ReviewFinder from './pages/reviewfinder/reviewfinder.jsx'
 /*import QuestionList from './pages/QuestionList';*/
-import FindReview from './pages/FindReview'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 // see this is my home page and it goes to....
@@ -18,18 +19,16 @@ function App() {
         <div className = 'content'>
           <Switch>
             <Route exact path = "/"> {/*Need firebase auth here and other homescreen*/}
-            
+              <Default />
             </Route>
             <Route exact path = "/home"> {/*Route for home page*/}
-              <MainText/>
-              <AboutText/>
-              <HomeButtons/>  
+              <Home />
             </Route>
-            <Route exact path = "/Questions&Answers">
-                <QuestionsAnswersText/>
+            <Route exact path = "/questions">
+              <Questions />
              </Route> 
-             <Route exact path = "/ReviewFinder">
-                <FindReview/>
+             <Route exact path = "/reviewfinder">
+                <ReviewFinder/>
               </Route>
           </Switch>
          
