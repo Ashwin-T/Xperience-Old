@@ -78,7 +78,7 @@ button {
   position: sticky;
   top: 0;
   display: flex;
-  height: 75px;
+  height: 115px;
   align-items: stretch;
   flex-direction: row;
   justify-content: flex-end;
@@ -110,7 +110,7 @@ button {
 }
 #topNavIcon{
   float: left;
-  height: 75px;
+  height: 115px;
   aspect-ratio: 1 / 1;
   padding: 0;
   position: absolute;
