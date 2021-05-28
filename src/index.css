@@ -77,6 +77,7 @@ button {
   position: sticky;
   top: 0;
   display: flex;
+  height: 75px;
   align-items: stretch;
   flex-direction: row;
   justify-content: flex-end;
@@ -111,6 +112,9 @@ button {
   height: 75px;
   aspect-ratio: 1 / 1;
   padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
   text-align: center;
 }
 #topNavIcon > img {
