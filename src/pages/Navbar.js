@@ -5,7 +5,7 @@ const NavBar= () => {
         <Link to = '/ ' style = {{backgroundColor: "black", color: '#D4AF37'}} >Sign Out</Link>
         <Link to="/help">Help</Link>
         <Link className="active" to ="/home"> Home</Link>
-        <div id="topNavIcon"><img src="./favicon.ico" style= {{width: "100%"}} alt = "logo"/>   </div> {/*  why isnt logo showing  */}
+        <Link to='/' id='topNavIcon'><img src="./transparent.png" className='topNavIcon' alt = "logo"/></Link> {/*  why isnt logo showing  */}
     </div>
 
         

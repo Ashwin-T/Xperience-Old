@@ -1,5 +1,3 @@
-import './App.css';
-
 import Navbar from './pages/Navbar.js';
 
 import Default from './pages/default/default.jsx'
