@@ -1,7 +1,7 @@
 body{
   background-color: var(--background-color);
   margin: 0;
-  font-family: 'Ubuntu Condensed', sans-serif;
+  font-family: "helvetica",sans-serif;
   color: var(--content-color);
 }
 @media (prefers-color-scheme: light)
@@ -77,7 +77,7 @@ button {
   position: sticky;
   top: 0;
   display: flex;
-  height: 75px;
+  height: 115px;
   align-items: stretch;
   flex-direction: row;
   justify-content: flex-end;
@@ -109,7 +109,7 @@ button {
 }
 #topNavIcon{
   float: left;
-  height: 75px;
+  height: 115px;
   aspect-ratio: 1 / 1;
   padding: 0;
   position: absolute;
