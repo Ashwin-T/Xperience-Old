@@ -17,7 +17,7 @@ const firebaseConfig = {
 if (firebase.apps.length === 0) {
   firebase.initializeApp(firebaseConfig);
 }
-var db = firebase.firestore();
+//var db = firebase.firestore();
 
 export default function Questions() {
   return (
