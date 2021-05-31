@@ -1,9 +1,8 @@
 import Navbar from './pages/Navbar.js';
 import Default from './pages/default/default.jsx';
 import Home from './pages/home/home.jsx';
-import showQuestions from './pages/questions/showQuestions';
+import QuestionList from './pages/questions/questionList.jsx';
 import ReviewFinder from './pages/reviewfinder/reviewfinder';
-import addQuestions from './pages/questions/addQuestions';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 // see this is my home page and it goes to....
@@ -22,8 +21,7 @@ function App() {
               <Home />
             </Route>
             <Route exact path = "/questions">
-              <addQuestions/>
-              <showQuestions/>
+                <QuestionList/>
              </Route> 
              <Route exact path = "/reviewfinder">
                 <ReviewFinder/>

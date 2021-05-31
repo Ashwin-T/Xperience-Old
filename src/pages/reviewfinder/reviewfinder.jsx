@@ -2,7 +2,7 @@ import React from 'react';
 
 import FindReview from './FindReview.js'
 
-export default function Questions(){
+export default function Reviews(){
     return(
         <div>
             <FindReview />

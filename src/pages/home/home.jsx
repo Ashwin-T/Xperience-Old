@@ -1,14 +1,11 @@
 import React from 'react';
 import MainText from './MainText';
-import AboutText from './AboutText';
-import HomeButtons from './HomeButtons';
 
-export default function Home(){
+
+export default function ReviewFinder(){
     return(
         <div>
             <MainText/>
-            <AboutText/>
-            <HomeButtons/> 
         </div>
     )
 }
