@@ -1,6 +1,3 @@
-import React from "react";
-import QuestionsAnswersText from "./QuestionsAnswersMainText.js";
-
 import firebase from "firebase/app";
 import "firebase/firestore";
 
@@ -14,15 +11,7 @@ const firebaseConfig = {
   appId: "1:945190412173:web:41990b52cd9e337756a7c4",
   measurementId: "G-RV1P34P93Q",
 };
-if (firebase.apps.length === 0) {
-  firebase.initializeApp(firebaseConfig);
-}
-var db = firebase.firestore();
 
-export default function Questions() {
-  return (
-    <div>
-      <QuestionsAnswersText />
-    </div>
-  );
-}
+firebase.initializeApp(firebaseConfig);
+
+export default firebase
