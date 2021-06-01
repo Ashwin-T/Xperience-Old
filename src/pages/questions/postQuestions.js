@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import db from "../firebase";
 
 const PostQuestions = () => {
-    const questionsCollection = db.collection("questions");
 
     const [questions, setQuestions] = useState([]);
     useEffect(() => {

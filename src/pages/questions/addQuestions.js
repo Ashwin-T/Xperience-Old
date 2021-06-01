@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {useState } from "react";
 import db from "../firebase";
 
 
@@ -6,19 +6,16 @@ const AddQuestions = () => {
     
     const questionsCollection = db.collection("questions");
     const [questionInput, setquestionInput] = useState('');
-    const [loader, setLoader] = useState(false);
 
     
     const handleSubmit = (e) => {
         e.preventDefault();
-        setLoader(true);
 
         questionsCollection.add({
             questionsAsked: questionInput, 
             likes: 0
         })
         .then(() => {
-          setLoader(false);
           alert("Your question has been submitted👍");
           setquestionInput('');
           window.location.reload(false);

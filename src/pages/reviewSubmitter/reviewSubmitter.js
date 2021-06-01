@@ -1,10 +1,7 @@
-import { useEffect, useState } from "react";
+import {useState } from "react";
 import db from "../firebase.js";
 
 const ReviewSubmitter = () => {
-    
-    
-    const [loader, setLoader] = useState(false);
     const reviewCollection = db.collection("review");
 
     const [classInput, setclassInput] = useState('');
@@ -19,7 +16,6 @@ const ReviewSubmitter = () => {
     
     const handleSubmit = (e) => {
         e.preventDefault();
-        setLoader(true);
 
         reviewCollection.add({
 
@@ -33,7 +29,6 @@ const ReviewSubmitter = () => {
             
         })
         .then(() => {
-          setLoader(false);
           alert("Your review has been submitted👍");
           setclassInput('');
           setratingInput('');
@@ -42,7 +37,6 @@ const ReviewSubmitter = () => {
           settimeInput('');
           setpreReqInput('');
           setreviewInput('');
-
           window.location.reload(false);
 
       })
