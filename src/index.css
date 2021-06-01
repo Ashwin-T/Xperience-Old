@@ -184,10 +184,12 @@ ul{
 }
 .titlesforReview{
   margin-top: 2%;
+  font-size: 20px;
 }
 .reviewSubmit{
-  border-radius: 10px;
-  width: 60%;
+  font-size: 25px;
+  width: 76.5%;
+  height: 75px;
   padding: 10px;
   border: 2px solid var(--accent-color);
   box-sizing: border-box;
