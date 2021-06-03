@@ -21,11 +21,15 @@ body{
 		--accent-background: black;
 		--content-color: white;
 	}
-}html {
+}
+html {
   scroll-behavior: smooth;
   --accent-color: #D4AF37;
   margin: 0%;
 }
+
+
+
 .content {
 	margin: 0 10px;
 }
@@ -51,6 +55,10 @@ input[type=text]:focus {
   transition-timing-function: ease-out;
 }
 
+h1 {
+	border-bottom: 2px solid #D4AF37;
+}
+
 .submit {
   border-radius: 0 10px 10px 0;
   width: 50px;
@@ -70,18 +78,22 @@ button {
 	font-family: inherit;
 }
 
+
+
 /* Create a sticky/fixed navbar test*/
 .topnav {
   background-color: var(--accent-background);
   overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: sticky;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  width: 100%;
   top: 0;
   display: flex;
   height: 115px;
   align-items: stretch;
   flex-direction: row;
   justify-content: flex-end;
+  transition: box-shadow .4s, height .4s;
 }
 
 /* Style the links inside the navigation bar */
@@ -93,6 +105,7 @@ button {
   text-decoration: none;
   transition-duration: 0.4s;
   display: flex;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -107,6 +120,18 @@ button {
 .topnav a.active {
   background-color: var(--accent-color);
   color: var(--content-color);
+}
+html:not([data-scroll='0']) #topNavIcon{
+	height: 50px;
+}
+html:not([data-scroll='0']) #root {
+	margin-top: calc(115px - 50px);
+}
+html:not([data-scroll='0']) .topnav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
 }
 #topNavIcon{
   float: left;
@@ -204,6 +229,7 @@ ul{
   background-color: var(--accent-color); /*fix button color + position */
   color: var(--content-color);
 }
+
 
 
 
