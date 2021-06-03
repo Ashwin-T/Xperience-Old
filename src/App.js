@@ -21,13 +21,13 @@ function App() {
             <Route exact path = "/home"> {/*Route for home page*/}
               <Home />
             </Route>
-            <Route exact path = "/questions">
+            <Route exact path = "/questionForum">
                 <QuestionList/>
              </Route> 
              <Route exact path = "/reviewfinder">
                 <ReviewFinder/>
               </Route>
-              <Route xact path = "/reviewSubmitter">
+              <Route exact path = "/reviewSubmitter">
                 <SubmitReview/>
               </Route>
           </Switch>

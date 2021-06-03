@@ -1,14 +1,16 @@
+import ReviewSearch from './searchReview';
+import { Link } from 'react-router-dom';
+
+
 const MainText = () => {
+    
     return (
     <div>
         <div className = "mainText">
             <h1 style = {{borderBottom: '2px solid #D4AF37'}}>
                 Search Reviews
             </h1>
-            <form>
-                <input type="text" placeholder = "Search by Class..." style = {{fontSize: '17px'}} />
-                <input type= "submit" id = "subButton" className = "submit" value = "Search"/>
-            </form>  
+           <ReviewSearch/>
         </div> 
         
         <div className = "aboutText" style= {{marginTop: '2%'}}>
@@ -18,9 +20,9 @@ const MainText = () => {
         </div>
 
         <div className = "inline">
-            <div className = "buttonHome" name = "Q&A" style= {{fontSize: '60px', margin: '3%', float: 'left'}}>Search for a Review</div> 
-            <div className = "buttonHome" name = "Q&A" style= {{fontSize: '60px', margin: '3%', float: 'middle'}}>Questions & Answers</div> 
-            <div className = "buttonHome" name = "review" style= {{fontSize: '60px', margin: '3%', float: 'right'}} onClick = ''>Submit a Review</div>
+            <Link to = '/reviewfinder' className = "buttonHome" name = "Q&A" style= {{fontSize: '60px', margin: '3%', float: 'left'}}>Search for a Review</Link> 
+            <Link to = '/questionForum' className = "buttonHome" name = "Q&A" style= {{fontSize: '60px', margin: '3%', float: 'middle'}}>Questions & Answers</Link> 
+            <Link to = '/reviewSubmitter' className = "buttonHome" name = "review" style= {{fontSize: '60px', margin: '3%', float: 'right'}}> Submit a Review</Link>
         </div>
     </div>  
     );
