@@ -4,6 +4,7 @@ import Home from './pages/home/home.jsx';
 import QuestionList from './pages/questions/questionList.jsx';
 import ReviewFinder from './pages/reviewfinder/reviewfinder.jsx';
 import SubmitReview from './pages/reviewSubmitter/submitReview.jsx';
+import ShowReplies from './pages/questions/ReplyPage';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 // see this is my home page and it goes to....
@@ -23,13 +24,19 @@ function App() {
             </Route>
             <Route exact path = "/questionForum">
                 <QuestionList/>
-             </Route> 
+             </Route>
+             <Route exact path = '/questionForum/:id'> 
+                <ShowReplies/>
+             </Route>
              <Route exact path = "/reviewfinder">
                 <ReviewFinder/>
               </Route>
               <Route exact path = "/reviewSubmitter">
                 <SubmitReview/>
               </Route>
+              <Route exact path = "/About">
+              </Route>
+             
           </Switch>
          
         </div>

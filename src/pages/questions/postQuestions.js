@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import db from "../firebase";
+import { Link } from 'react-router-dom';
+
 
 const PostQuestions = () => {
+    //temp trial
 
     const [questions, setQuestions] = useState([]);
     useEffect(() => {
@@ -23,11 +26,16 @@ const PostQuestions = () => {
 
     return (  
     <div>
-    <ul>
-        {questions.map((ques) => (
-          <li>{ques.questionsAsked} </li>
-        ))}
-      </ul> );
+      <ul>  
+          {questions.map((ques) => (
+            <div className = 'questionsPosted'>
+              <Link to = {`/questionForum/${}`}>
+                <li>{ques.questionsAsked} </li>
+              </Link>
+            </div>
+
+          ))}
+        </ul>
     </div>
     )
 }

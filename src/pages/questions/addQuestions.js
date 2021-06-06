@@ -11,16 +11,18 @@ const AddQuestions = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        questionsCollection.add({
-            questionsAsked: questionInput, 
-            likes: 0
-        })
-        .then(() => {
-          alert("Your question has been submitted👍");
-          setquestionInput('');
-          window.location.reload(false);
-
-      })
+        if (questionInput !== ''){
+            questionsCollection.add({
+                questionsAsked: questionInput, 
+                likes: 0
+            })
+            .then(() => {
+            alert("Your question has been submitted👍");
+            setquestionInput('');
+            window.location.reload(false);
+            })
+        }
+     
     } 
     
     
@@ -32,7 +34,6 @@ const AddQuestions = () => {
         onChange={(e) => setquestionInput(e.target.value)}>
         
         </input>
-        {/*placeholder = {{'Specific questions about classes, combinations of classes, teachers, etc... '*/}
         <button className="submit" value="Submit">Submit</button>
     </form> 
 
