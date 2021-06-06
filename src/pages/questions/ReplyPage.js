@@ -3,14 +3,18 @@ import { useParams } from 'react-router';
 import db from "../firebase";
 import { useEffect, useState } from "react";
 
+import AddReplies from './addReplies.js'
+
+
 const ShowReplies = (props) => {
 
     const { id } = useParams();
+    const [replies, setReplies] = useState([]);
 
-     const [replies, setReplies] = useState([]);
-     useEffect(() => {
-       var tempArray = [];
-       db.collection(`questions/${id}/replies`)
+
+    useEffect(() => {
+      var tempArray = [];
+      db.collection(`questions/${id}/replies`)
         .get()
         .then((querySnapshot) => {
            querySnapshot.forEach((doc) => {
@@ -23,10 +27,16 @@ const ShowReplies = (props) => {
            console.log("Error getting documents: ", error);
          });
      }, []);
- 
+
+     const question = db.collection('questions').data().questionsAsked;
+     
+
+  
+
      return (  
      <div>
-
+       <h1 style = {{marginLeft: '7%'}}>{question} </h1> {/*Help!*/}
+          <AddReplies/>
        <ul>  
            {replies.map((rep) => (
              <div className = 'questionsPosted'>
@@ -38,5 +48,7 @@ const ShowReplies = (props) => {
      </div>
      )
 }
+
+
  
 export default ShowReplies;

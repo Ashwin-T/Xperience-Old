@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 
 
 const PostQuestions = () => {
-    //temp trial
-
     const [questions, setQuestions] = useState([]);
     useEffect(() => {
       var tempArray = [];
