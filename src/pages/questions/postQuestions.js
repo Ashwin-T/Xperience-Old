@@ -15,7 +15,7 @@ const PostQuestions = () => {
         .then((querySnapshot) => {
           querySnapshot.forEach((doc) => {
             // doc.data() is never undefined for query doc snapshots
-            tempArray.push(doc.data());
+            tempArray.push(doc);
           });
           setQuestions(tempArray);
         })
@@ -29,8 +29,8 @@ const PostQuestions = () => {
       <ul>  
           {questions.map((ques) => (
             <div className = 'questionsPosted'>
-              <Link to = {`/questionForum/${}`}>
-                <li>{ques.questionsAsked} </li>
+              <Link to = {`/questionForum/${ques.id}`}>{/*Lol help here http://localhost:3000/questionForum/101 */}
+                <li>{ques.data().questionsAsked} </li>
               </Link>
             </div>
 
