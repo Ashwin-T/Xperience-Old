@@ -1,24 +1,30 @@
 import {useState } from "react";
 import db from "../firebase";
+import React from 'react';
+import { useParams } from 'react-router';
 
 
-const AddQuestions = () => {
+const AddReplies = () => {
     
-    const questionsCollection = db.collection("questions");
-    const [questionInput, setquestionInput] = useState('');
+    const { id } = useParams();
+
+    const dbRef = db.collection(`questions/${id}/replies`)
+    const [replyInput, setreplyInput] = useState('');
+
+
 
     
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        if (questionInput !== ''){
-            questionsCollection.add({
-                questionsAsked: questionInput, 
+        if (replyInput !== ''){
+            dbRef.add({
+                replies: replyInput, 
                 likes: 0
             })
             .then(() => {
-            alert("Your question has been submitted👍");
-            setquestionInput('');
+            alert("Your reply has been submitted👍");
+            setreplyInput('');
             window.location.reload(false);
             })
         }
@@ -29,9 +35,9 @@ const AddQuestions = () => {
     return (
     <form id="add-questions" onSubmit = {handleSubmit}>
         <input type="text" id="questionBox" style={{ float: "center", fontSize: "17px", marginLeft: "7%" }} 
-        value = {questionInput}
+        value = {replyInput}
         
-        onChange={(e) => setquestionInput(e.target.value)}>
+        onChange={(e) => setreplyInput(e.target.value)}>
         
         </input>
         <button className="submit" value="Submit">Submit</button>
@@ -41,4 +47,4 @@ const AddQuestions = () => {
       );
 }
  
-export default AddQuestions;
+export default AddReplies;

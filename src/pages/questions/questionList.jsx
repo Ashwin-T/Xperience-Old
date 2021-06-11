@@ -5,7 +5,7 @@ import Questions from './Questions.js'
 export default function QuestionList(){
     return(
         <div>
-            <Questions />
+            <Questions/>
         </div>
     )
 }

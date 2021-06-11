@@ -5,6 +5,7 @@ body{
   color: var(--content-color);
   text-decoration: none;
 }
+
 @media (prefers-color-scheme: light)
 {
 	html {
@@ -210,6 +211,11 @@ li{
   margin-bottom: 3%;
 
 }
+.questionsPosted{
+  color: var(--content-color);
+}
+
+
 ul{
   list-style-type: none; /* Remove bullets */
   padding: 0; /* Remove padding */
