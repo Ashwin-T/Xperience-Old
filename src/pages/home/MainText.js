@@ -12,15 +12,15 @@ const MainText = () => {
         </div> 
         
         <div className = "aboutText" style= {{marginTop: '2%'}}>
-            <h1>
+            <p>
                 MV Xperience is a resource that provides students with reviews and advice from real, current, and previous MVHS students, giving students a better idea of the commitment level needed, course loads of different classes, and composite schedules.
-            </h1> 
+            </p> 
         </div>
 
         <div className = "inline">
-            <div className = "buttonHome" name = "Q&A" style= {{fontSize: '60px', margin: '3%', float: 'left'}}>Search for a Review</div> 
-            <div className = "buttonHome" name = "Q&A" style= {{fontSize: '60px', margin: '3%', float: 'middle'}}>Questions & Answers</div> 
-            <div className = "buttonHome" name = "review" style= {{fontSize: '60px', margin: '3%', float: 'right'}} onClick = ''>Submit a Review</div>
+            <div className = "buttonHome" name = "Q&A">Search for a Review</div> 
+            <div className = "buttonHome" name = "Q&A">Questions & Answers</div> 
+            <div className = "buttonHome" name = "review" onClick = ''>Submit a Review</div>
         </div>
     </div>  
     );
