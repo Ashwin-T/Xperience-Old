@@ -17,7 +17,7 @@ const NavBar= () => {
         <Link to="/help">Help</Link>
 		<Link to = '/about'>About</Link>
         <Link to = '/home'>Sign Out</Link>
-        <Link to='/home' id='topNavIcon'><img src="./transparent.png" className='topNavIcon' alt = "logo"/></Link> 
+        <Link to='/home' id='topNavIcon'><img src="/transparent.png" className='topNavIcon' alt = "logo"/></Link> 
     </nav>
 
         
