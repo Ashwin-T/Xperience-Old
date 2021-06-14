@@ -5,9 +5,9 @@ import firebase from "../firebase.js";
 import { useEffect } from "react";
 
 export default function ReviewFinder() {
-  //   THIS IS HOW YOU CHECK IF THE USER IS LOGGED IN
-  const user = firebase.auth().currentUser;
   useEffect(() => {
+    // CHECKING IF A USER IS LOGGED IN OR NOT
+    const user = firebase.auth().currentUser;
     if (user !== null) {
       user.providerData.forEach((profile) => {
         console.log("Sign-in provider: " + profile.providerId);
@@ -17,15 +17,14 @@ export default function ReviewFinder() {
         console.log("  Photo URL: " + profile.photoURL);
       });
     } else {
+      // MOST LIKELY, IF THE USER IS NOT LOGGED IN, WE WILL RENDER AN AUTHENTICATION PROMPT, BUT THAT HASN'T BEEN ADDED YET
       console.log("User is not logged in");
     }
   }, []);
-  function checkForThings() {}
 
   return (
     <div>
       <MainText />
-      {checkForThings()}
     </div>
   );
 }
