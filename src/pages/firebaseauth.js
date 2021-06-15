@@ -4,7 +4,7 @@ import firebase from "./firebase.js";
 // IMPORT THIS WHENEVER YOU NEED AUTHENTICATION
 var provider = new firebase.auth.GoogleAuthProvider();
 
-const FirebaseContainer = () => {
+const FirebaseContainer = (params) => {
   function signIn() {
     firebase
       .auth()
