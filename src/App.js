@@ -5,12 +5,13 @@ import QuestionList from "./pages/questions/questionList.jsx";
 import ReviewFinder from "./pages/reviewfinder/reviewfinder.jsx";
 import SubmitReview from "./pages/reviewSubmitter/submitReview.jsx";
 import ReplyList from "./pages/questions/replyFourm";
-import Logout from "./pages/logout/logout.jsx";
+import Logout from "./pages/auth/logout.jsx";
 import Dashboard from "./pages/dashboard/dashboard.js";
 
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import firebase from "./pages/firebase.js";
+import Login from "./pages/auth/login.js";
 // see this is my home page and it goes to....
 
 function App() {
@@ -21,38 +22,41 @@ function App() {
     });
     return (
         <Router>
-            <div className="App">
+            <div className='App'>
                 <Navbar user={user} />
-                <div className="content">
+                <div className='content'>
                     <Switch>
-                        <Route exact path="/dashboard">
+                        <Route exact path='/dashboard'>
                             <Dashboard user={user}></Dashboard>
                         </Route>
-                        <Route exact path="/">
+                        <Route exact path='/'>
                             {" "}
                             {/*Need firebase auth here and other homescreen*/}
                             <Default />
                         </Route>
-                        <Route exact path="/home">
+                        <Route exact path='/home'>
                             {" "}
                             {/*Route for home page*/}
                             <Home user={user} />
                         </Route>
-                        <Route exact path="/questionForum">
+                        <Route exact path='/questionForum'>
                             <QuestionList user={user} />
                         </Route>
-                        <Route exact path="/questionForum/:id">
+                        <Route exact path='/questionForum/:id'>
                             <ReplyList />
                         </Route>
-                        <Route exact path="/reviewfinder">
+                        <Route exact path='/reviewfinder'>
                             <ReviewFinder />
                         </Route>
-                        <Route exact path="/reviewSubmitter">
+                        <Route exact path='/reviewSubmitter'>
                             <SubmitReview />
                         </Route>
-                        <Route exact path="/About"></Route>
-                        <Route exact path="/logout">
+                        <Route exact path='/About'></Route>
+                        <Route exact path='/logout'>
                             <Logout></Logout>
+                        </Route>
+                        <Route exact path='/login'>
+                            <Login></Login>
                         </Route>
                     </Switch>
                 </div>
