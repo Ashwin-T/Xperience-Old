@@ -9,7 +9,7 @@ const AddQuestions = (params) => {
 
   // Gets if the person is signed in or not, and if so, gets their uid
   var [profileURL, setURL] = useState();
-  const [uid, setUID] = useState(0);
+  const [userID, setUID] = useState(0);
   useEffect(() => {
     if (params.user !== null) {
       params.user.providerData.forEach((profile) => {
@@ -23,8 +23,13 @@ const AddQuestions = (params) => {
     if (questionInput !== "") {
       questionsCollection
         .add({
-          questionsAsked: questionInput,
+          text: questionInput,
           likes: 0,
+          uid: userID,
+          // TODO: ACTUALLY ADD TAGS
+          tags: [],
+          date: new Date().getTime(),
+          numReplies: 0,
         })
         .then(() => {
           alert("Your question has been submitted👍");
@@ -37,7 +42,7 @@ const AddQuestions = (params) => {
   return (
     // Conditionally renders the sign in with google button or the form
     <div>
-      {uid != 0 ? (
+      {userID != 0 ? (
         <form id="add-questions" onSubmit={handleSubmit}>
           <input type="text" id="questionBox" style={{ float: "center", fontSize: "17px", marginLeft: "7%" }} value={questionInput} onChange={(e) => setquestionInput(e.target.value)}></input>
           <button className="submit" value="Submit">

@@ -29,7 +29,7 @@ const PostQuestions = () => {
           <div className="questionsPosted">
             <Link to={`/questionForum/${ques.id}`}>
               {/*Lol help here http://localhost:3000/questionForum/101 */}
-              <li>{ques.data().questionsAsked} </li>
+              <li>{ques.data().text} </li>
             </Link>
           </div>
         ))}

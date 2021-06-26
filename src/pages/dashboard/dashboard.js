@@ -1,27 +1,24 @@
 import { useState, useRef, useEffect } from "react";
-import SearchBar from "../searchbar.js";
+import Navbar from "../Navbar.js";
 import firebase from "../firebase.js";
+import YourQuestions from "./yourQuestions.js";
 const db = firebase.firestore();
 const Dashboard = (params) => {
-  const [uid, setUID] = useState();
+  const [userID, setUID] = useState();
   useEffect(() => {
+    console.log(params.user);
     if (params.user !== null) {
       params.user.providerData.forEach((profile) => {
         //   changeID(profile.uid);
         setUID(profile.uid);
+        console.log(profile.uid);
       });
     }
   }, []);
 
   return (
     <div>
-      <SearchBar user={params.user}></SearchBar>
-      <div>
-        <div>
-          <h1>Your Questions</h1>
-          <button>Ask New +</button>
-        </div>
-      </div>
+      <YourQuestions user={params.user} uid={userID}></YourQuestions>
       <div>
         <h1>Suggested Actions</h1>
         <div>Answer questions on classes you have reviewed</div>
