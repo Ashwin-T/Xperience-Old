@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import Questions from './Questions.js'
+import Questions from "./Questions.js";
 
-export default function QuestionList(){
-    return(
-        <div>
-            <Questions/>
-        </div>
-    )
-}
+const QuestionList = (params) => {
+  return (
+    <div>
+      <Questions user={params.user} />
+    </div>
+  );
+};
+export default QuestionList;
