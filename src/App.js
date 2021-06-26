@@ -5,24 +5,32 @@ import QuestionList from "./pages/questions/questionList.jsx";
 import ReviewFinder from "./pages/reviewfinder/reviewfinder.jsx";
 import SubmitReview from "./pages/reviewSubmitter/submitReview.jsx";
 import ReplyList from "./pages/questions/replyFourm";
-import Logout from "./pages/logout/logout.jsx"
-import { useState } from "react"
+import Logout from "./pages/auth/logout.jsx";
+import Dashboard from "./pages/dashboard/dashboard.js";
+
+import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import firebase from "./pages/firebase.js";
+import Login from "./pages/auth/login.js";
+import { useEffect } from "react/cjs/react.production.min";
 // see this is my home page and it goes to....
 
 function App() {
   const [user, setUser] = useState(firebase.auth().currentUser);
-  firebase.auth().onAuthStateChanged((userIn)=>{
-	console.log('herererer')
-	setUser(userIn)
-  })
+  firebase.auth().onAuthStateChanged((userIn) => {
+    console.log("herererer");
+    setUser(userIn);
+  });
+
   return (
     <Router>
       <div className="App">
-        <Navbar user={user}/>
+        <Navbar user={user} />
         <div className="content">
           <Switch>
+            <Route exact path="/dashboard">
+              <Dashboard user={user}></Dashboard>
+            </Route>
             <Route exact path="/">
               {" "}
               {/*Need firebase auth here and other homescreen*/}
@@ -31,10 +39,10 @@ function App() {
             <Route exact path="/home">
               {" "}
               {/*Route for home page*/}
-              <Home user={user}/>
+              <Home user={user} />
             </Route>
             <Route exact path="/questionForum">
-              <QuestionList />
+              <QuestionList user={user} />
             </Route>
             <Route exact path="/questionForum/:id">
               <ReplyList />
@@ -47,8 +55,11 @@ function App() {
             </Route>
             <Route exact path="/About"></Route>
             <Route exact path="/logout">
-				<Logout></Logout>
-			</Route>
+              <Logout></Logout>
+            </Route>
+            <Route exact path="/login">
+              <Login></Login>
+            </Route>
           </Switch>
         </div>
       </div>
