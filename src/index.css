@@ -151,8 +151,6 @@ html:not([data-scroll="0"]) .topnav {
 #topNavIcon > img {
   width: 100%;
 }
-.mainText {
-}
 form {
   padding-top: 7px;
   padding-bottom: 7px;
@@ -225,6 +223,7 @@ ul {
   height: 75px;
   padding: 10px;
   border: 2px solid var(--accent-color);
+  background-color: var(--accent-background);
   box-sizing: border-box;
   color: var(--content-color);
   transition-duration: 0.4s;
