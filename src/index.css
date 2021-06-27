@@ -186,6 +186,7 @@ ul {
     border: 2px solid var(--accent-color);
     box-sizing: border-box;
     color: var(--content-color);
+	background-color: var(--accent-background);
     transition-duration: 0.4s;
     text-align: center;
     margin-top: 3%;

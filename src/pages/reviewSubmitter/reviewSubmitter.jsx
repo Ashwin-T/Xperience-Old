@@ -2,19 +2,18 @@ import { useState, useRef } from "react";
 import firebase from "../firebase";
 import './reviewSubmitter.css';
 import Slider from "./slider";
+import sha256 from "../../sha256";
+import classNames from "../classNames2122.json"
 const db = firebase.firestore();
 
 const ReviewSubmitter = () => {
-  const reviewCollection = db.collection("review");
-
   const classInput = useRef();
   const ratingInput = useRef();
-  const gradeInput = useRef();
   const timeInput = useRef();
   const stressInput = useRef();
   const preReqInput = useRef();
   const reviewInput = useRef();
-  const formRefs = useRef([classInput, ratingInput, gradeInput, timeInput, stressInput, preReqInput, reviewInput])
+  const formRefs = useRef([classInput, ratingInput, timeInput, stressInput, preReqInput, reviewInput])
   const requiredRefs = useRef([classInput, ratingInput, timeInput, reviewInput])
   function checkRequired()
   {
@@ -27,6 +26,7 @@ const ReviewSubmitter = () => {
 			return false;
 		}
 	}
+	return true;
   }
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -34,23 +34,50 @@ const ReviewSubmitter = () => {
 	{
 		return;
 	}
-    reviewCollection
-      .add({
-        class: classInput.current.value,
-        grade: gradeInput.current.value,
-        rating: ratingInput.current.value,
-        timeSpentPerNight: timeInput.current.value,
-        similarClasses: preReqInput.current.value,
-        stressLevel: stressInput.current.value,
-        review: reviewInput.current.value,
-      })
-      .then(() => {
-        alert("Your review has been submitted👍");
-        formRefs.forEach(e=>{
-			e.current.value = null;
+	const classId = classNames[classInput.current.value].code;
+	const uid = firebase.auth().currentUser.uid;
+	console.log('submitting')
+	sha256(uid + classId)
+	.then(reviewId=>{
+		console.log(reviewId)
+		const classRef = db.collection('classes').doc(classId)
+		const reviewRef = classRef.collection('reviews').doc(reviewId);
+	
+		const userRef = db.collection('users').doc(uid);
+		const batch = db.batch();
+		userRef.update({reviewIds:firebase.firestore.FieldValue.arrayUnion(reviewId)})
+		.then(makeReview)
+		.catch(e=>{
+			console.log('creating user now')
+			userRef.set({reviewIds:[reviewId]})
+				.then(makeReview)
+				.catch(e=>{
+					console.log('couldnt create user')
+				})
 		})
-        // window.location.reload(false);
-      });
+		function makeReview()
+		{
+			batch.update(classRef, {
+				reviewCt:firebase.firestore.FieldValue.increment(1),
+				sumOfStars:firebase.firestore.FieldValue.increment(ratingInput.current.value)
+			})
+			batch.set(reviewRef, {
+				class: classInput.current.value,
+				rating: Number(ratingInput.current.value),
+				timeSpentPerNight: Number(timeInput.current.value),
+				similarClasses: preReqInput.current.value,
+				stressLevel: Number(stressInput.current.value),
+				review: reviewInput.current.value,
+			})
+			batch.set(reviewRef.collection('diffPerms').doc('private'), {uid:uid})
+			batch.commit().then(() => {
+				alert("Your review has been submitted👍");
+				formRefs.current.forEach(e=>{
+					e.current.value = null;
+				})
+			});
+		}
+	})
   };
   console.log(ratingInput.current)
  // (nameOfClass X) (secondClass X)
@@ -73,10 +100,8 @@ const ReviewSubmitter = () => {
         <input type="text" ref={preReqInput} id="similarClassSelector" list="classes" placeholder="What similar classes have you taken in the past..."></input>
         <div className="titlesforReview required">General Review</div>
         <input ref={reviewInput} type="text" id="reviewSelector" placeholder="Write a thoughful review here!"></input>
-        <button id="subMainButton" className="reviewSubmit" value="Submit">
-          {" "}
-          Submit
-        </button>
+        <input type="Submit" id="subMainButton" className="reviewSubmit">
+        </input>
       </form>
     </div>
   );

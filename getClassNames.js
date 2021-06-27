@@ -7,7 +7,7 @@ fs.readFile('./CourseCatalog20212022.html', 'utf-8', (err, data)=>{
 		.forEach(e=>{
 			const className = e[1].replace(/&amp;/g, '&').replace(/ &nbsp;/g, ' ').replace(/&rsquo;/g, '\'');
 			out[className] = {code:e[2].replace('/', '-')}
-			out[className]['desc'] = data.slice(e.index+e[0].length)
+			/*out[className]['desc'] = data.slice(e.index+e[0].length)
 				.match(/<\/table><p class="[A-Z0-9a-z ]+?"><span class="[A-Z0-9a-z ]+?">(.+?)(<\/span><\/p><p class="c1">|(COURSE)|(<span style=))/)[1]
 				.replace(/&amp;/g, '&')
 				.replace(/ &nbsp;/g, ' ')
@@ -21,6 +21,7 @@ fs.readFile('./CourseCatalog20212022.html', 'utf-8', (err, data)=>{
 				.replace(/&nbsp;/g, '')
 				.replace(/&rsquo;/g, '\'')
 				.replace(/&ndash;/g, '-');
+				*/
 		});
 
 		/*
@@ -28,15 +29,15 @@ fs.readFile('./CourseCatalog20212022.html', 'utf-8', (err, data)=>{
 			[
 				(replace F HC0020  S HC0030  J HC0040 S with)
 				"AVID":{
-					"code":"HC0020-30-40-50"
+					"code":"HC0020-30-40-50",
 					"desc":"AVID, Advancement Via Individual Determination, is a course designed to support students underrepresented in higher education. It engages students in the writing process, inquiry method, and collaborative learning to improve critical thinking and communication skills. Students review study skills, especially note-taking, test-taking, and time management skills. The course helps prepare students for college entrance examinations and promotes individual responsibility for college preparation and continual learning. AVID students have tutorial support services twice a week and also participate in service learning."
 				},
 				"APP AND GAME DESIGN":{
-					"code":"BC1018"
+					"code":"BC1018",
 					"desc":"Students learn to create mobile apps, 2D games and 3D games using the Unity Game Engine and the C# programming language. Students will spend the first semester of the year creating 2D mobile apps and games. Students will spend the second semester working in 3D, with more complex geometry, modeling, texturing and lighting. Students study Game Design and theories of Play. Students practice creativity and design thinking. Students work in collaborative groups to create long term projects. Students learn to playfully mod existing games as well as create their own concepts from scratch. Students learn other development concepts such as: rapid prototyping, iterative development process, market research, playtesting, creating game art, game mechanics, and programming in C# (e.g. player movement, gravity, physics, collision detection, scene selection, animation, and more)."
 				},
-				"ADVANCED COMPUTER SCIENCE"{
-					"code":"BC1019"
+				"ADVANCED COMPUTER SCIENCE":{
+					"code":"BC1019",
 					"desc":"Advanced Computer Science aims to be a class where students work to expand deeper into their programming knowledge. &nbsp;This course will have an emphasis on building and applying concepts in data structures. Students will learn such topics as generics, sets, linked lists, hashtable, queues, stacks, maps, and trees. Students will develop applications pertaining to each data structure and evaluate their performance analysis. In addition, students will explore and utilize concepts in search, sorting, design, file i/o, networking, and multithreading."
 				},
 				"ACTING II {
