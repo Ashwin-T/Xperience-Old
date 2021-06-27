@@ -1,0 +1,650 @@
+{
+    "AP STUDIO ART: 2D": {
+        "code": "IA1020",
+        "desc": "The AP Studio Art course is designed for advanced students who have mastered the technical skills in other two or three dimensional mediums. There are three possible approaches: Drawing, 2D and 3D design. This course provides an opportunity for advanced students to develop a more comprehensive and sequential art portfolio which, after passing by the College Board may be submitted for college credit."
+    },
+    "AP STUDIO ART: 3D": {
+        "code": "IA0110",
+        "desc": "The AP Studio Art course is designed for advanced students who have mastered the technical skills in other two or three dimensional mediums. There are three possible approaches: Drawing, 2D and 3D design. This course provides an opportunity for advanced students to develop a more comprehensive and sequential art portfolio which, after passing by the College Board may be submitted for college credit."
+    },
+    "AP STUDIO ART: DRAWING": {
+        "code": "IA1010",
+        "desc": "The AP Studio Art course is designed for advanced students who have mastered the technical skills in other two or three dimensional mediums. There are three possible approaches: Drawing, 2D and 3D design. This course provides an opportunity for advanced students to develop a more comprehensive and sequential art portfolio which, after passing by the College Board may be submitted for college credit."
+    },
+    "ART SURVEY": {
+        "code": "IC0010",
+        "desc": "Students are introduced to beginning level techniques of two and three dimensional mediums. Students develop skills in drawing, painting, and sculpting to express ideas using graphite, colored pencils, ink, glaze, tempera paint, and watercolor. Students learn to analyze works of art in terms of aesthetic significance, creative expression, historical and cultural components and critical interpretation. Art history is incorporated through slide lectures, research and group discussion. Oral and written critiques are part of student evaluation."
+    },
+    "CERAMICS": {
+        "code": "IC0020",
+        "desc": "This is a beginning level course in hand building and throwing. Students explore basic theory and techniques to form creative and functional ceramic objects. Kiln firing and glaze applications are covered. The use of the potter&lsquo;s wheel is introduced. The history of ceramics is studied through research and group activities. Oral and written critiques are part of all projects."
+    },
+    "COMMERCIAL ART": {
+        "code": "KC1080",
+        "desc": "This course emphasizes the commercial applications of art to graphic design and illustration. Students study design basics and advanced skills as preparation for careers in graphic design. The course incorporates the history of art and design, analysis, interpretation and critiques. Students use a variety of techniques ranging from handmade methods to using software including Adobe Photoshop and Illustrator."
+    },
+    "DRAWING I": {
+        "code": "IC1010",
+        "desc": "Students study the basic skills of design and composition through the study of human proportion, landscape, abstraction, realism, still-life objects, and fictitious subject matter. Students learn to analyze their drawings in terms of aesthetic significance, creative expression, culture, and historic components. A wide variety of media is introduced, including graphite, pen and ink, charcoal, printmaking, and colored pencils. Students learn to analyze works of art in terms of aesthetic significance, creative expression, historical and cultural components and critical interpretation. Art history is incorporated through presentations, research and group discussion. Oral and written critiques are part of student evaluation."
+    },
+    "DRAWING II": {
+        "code": "IC1011",
+        "desc": "Drawing II will concentrate on creative interpretation of themes, advanced drawing techniques and a variety of media. The course emphasizes individual expression and development in diverse subjects, concepts and interpretation/analysis of ideas and aesthetic images. Through investigating different styles and techniques, students will create refined, meaningful drawings that demonstrate technical mastery and creative growth. The course will cover various drawing media, elements of art, and principles of design and art history relevant to each project. Some project ideas include still-life studies, figures, formal drawings, concentration on art elements and principles of design, mixed media drawings, abstraction, expressive landscapes, emotional drawings and surrealism."
+    },
+    "PAINTING I": {
+        "code": "IC1110",
+        "desc": "Students are introduced to beginning and advanced level techniques of painting. Students develop skills in color theory and design to express ideas using acrylics and watercolor. Students learn to analyze works of art in terms of aesthetic significance, creative expression, historical and cultural components and critical interpretation. Art history is incorporated through research and group discussion. Oral and written critiques are part of student evaluation."
+    },
+    "PHOTOGRAPHY I": {
+        "code": "IC1210",
+        "desc": "This is a basic course in the principles of black and white photography.  Students see their world through the lens of a 35mm camera. Students will take photographs, process film, make proof sheets, choose images to enlarge, and manipulate prints through burning, dodging, and the use of filters. Students are involved in the critique process through group activities including Socratic seminars. Students analyze, interpret and make informed judgments of works of art. Preparing prints for presentation will include spotting, dry mounting and matting. In addition, the history of photography will be introduced through slide lectures, research, and small group discussion. A limited number of cameras are available for student use."
+    },
+    "PHOTOGRAPHY II": {
+        "code": "IC1211",
+        "desc": "Photography II uses the basic skills acquired in Photography I to focus on creating a personal theme or interpretation. Students will learn advanced camera and darkroom techniques, as well as advance their skills in the digital lab. Through this course students will create a personal portfolio to display their individual style. By the end of the course students will have demonstrated advanced creative and technical mastery."
+    },
+    "PUBLICATION DESIGN": {
+        "code": "BC2210",
+        "desc": "This course is devoted to the production of the school yearbook. Students will learn all of the skills necessary to become contributing members of the school yearbook staff. Students will learn to use cameras and computers to produce the book, and are expected to be responsible, self-motivated, and prompt in meeting deadlines. The class may be taken for four years, as students can become editors. Publication Design is an introduction to the design aspect of the print industry with a special emphasis on magazine and yearbook journalism. Students will learn skills required to become successful contributing publication designers, including all phases of production: design, layout, photography, graphics, reporting, writing, editing, publicity and distribution. The Elements and Principles of Design, Color Theory, Basic Photography and Typography/ Page Design are a few of the essential skills and concepts covered in this class. Additionally, students will be introduced to the basic skills used in desktop publishing."
+    },
+    "DIGITAL ART & IMAGING": {
+        "code": "IC1230",
+        "desc": "Emphasis is placed on the elements and principles of design throughout the course. Visual problem solving skills are explored through the computer, which is used as the main tool for creative expression and communication. Historical periods and artists are compared and contrasted through reading, writing, and computer - based activities. Aesthetic valuing and criticism are infused within the curriculum through verbal and written critique of student work and the artwork of professional and historical artists. The five components in The California State Framework as well as the Mountain View Los Altos standards for alignment are infused in the course."
+    },
+    "CONDITIONING": {
+        "code": "PO1250",
+        "desc": "Conditioning is a class designed for athletes on interscholastic teams. This course is designed for the athlete to develop strength, endurance, flexibility, coordination, and body fitness during the off season. Credits do not count as PE."
+    },
+    "AVID": {
+        "code": "HC0020-30-40-50",
+        "desc": "AVID, Advancement Via Individual Determination, is a course designed to support students underrepresented in higher education. It engages students in the writing process, inquiry method, and collaborative learning to improve critical thinking and communication skills. Students review study skills, especially note-taking, test-taking, and time management skills. The course helps prepare students for college entrance examinations and promotes individual responsibility for college preparation and continual learning. AVID students have tutorial support services twice a week and also participate in service learning. *Prerequisites: Students must have a college preparatory schedule that prepares them to meet A-G UC/CSU requirements; placement in AVID is determined by the AVID department and counselor after the student completes the application and interview process."
+    },
+    "AVID PEER TUTOR": {
+        "code": "HO0070",
+        "desc": "AVID Peer Tutors will improve their own study skills and interpersonal and facilitation skills as they assist 9-12 grade AVID students in math, science, language arts, and social studies. With on-going training, peer tutors will work in small study groups to help AVID students apply study skills - how to read text, take tests and lecture notes, use notes to study, review daily for quizzes/tests, and ask specific questions to clarify areas of confusion.*Prerequisites: AVID Peer Tutors should have a strong academic background in a variety of classes taught at MVHS. Teacher recommendation, interview, and training are required. Please see the department coordinator or your counselor."
+    },
+    "ENGINEERING TECHNOLOGY I": {
+        "code": "BC2020",
+        "desc": "Engineering Technology I is the first-level class in the Engineering Program. This course familiarizes students with careers in engineering and related technical fields. Students will learn engineering fundamentals and tool use through hands-on design and fabrication. Students complete interesting projects in a variety of areas as they gain confidence and explore the nature of engineering, the design process, computer aided drafting and design, manufacturing materials, and a survey of engineering disciplines. No prior experience is necessary. Students learn about mechanical design, civil and architectural engineering, electricity and electronics, and robotics engineering. They learn to prototype their designs using CAD, hand and machine tools, 3D printing and laser cutting. Projects are designed to allow students to make connections between related science and engineering disciplines. This course is for students who want to experience and prepare for college and university studies and for those who like to design and fabricate products. This course is a prerequisite to Engineering Technology II."
+    },
+    "ENGINEERING TECHNOLOGY II": {
+        "code": "BC2030",
+        "desc": "Engineering Technology II is the second-level class of the Engineering Program. This is an advanced engineering course designed to further expose students to engineering technology careers and college majors, and it provides hands-on instruction in several engineering disciplines including mechanical, electrical, and civil engineering.Students will design and build projects including mechanical and electrical systems, products for specific users, UAV (drone) production, and electric vehicles. Projects are designed to allow students to explore topics in depth and to make connections between related science and engineering disciplines. Students will demonstrate mastery of content and process by completion and presentation of these long-term projects. Engineering Technology II is designed for students who want to prepare for college and university studies or for future engineering careers."
+    },
+    "INNOVATIVE DESIGN CAPSTONE": {
+        "code": "BC2050",
+        "desc": "Architectural Design is intended to help students develop skills that require Architectural graphic & design abilities. Concepts of Architectural planning and design, and the skills and techniques used by the Architect in designing and planning structures are used throughout the course. Students are guided through a series of assignments and projects that provide an understanding of how visual arts apply to real world problems through the use of a computer-aided design system.Students will work individually and in teams to solve a variety of design problems assigned by the instructor or jobs developed from the community. This course will allow students to increase their potential of successfully entering and participating in advanced college and/or career programs. "
+    },
+    "ARCHITECTURAL DESIGN": {
+        "code": "BC3010",
+        "desc": "Architectural Design is intended to help students develop skills that require Architectural graphic & design abilities. Concepts of Architectural planning and design, and the skills and techniques used by the Architect in designing and planning structures are used throughout the course. Students are guided through a series of assignments and projects that provide an understanding of how visual arts apply to real world problems through the use of a computer-aided design system.Students will work individually and in teams to solve a variety of design problems assigned by the instructor or jobs developed from the community. This course will allow students to increase their potential of successfully entering and participating in advanced college and/or career programs. "
+    },
+    "INTRO TO COMPUTER SCIENCE": {
+        "code": "BC1010",
+        "desc": "Students learn computer science in four languages, one per quarter. In quarter one, students begin with a drag-and-drop environment using programming blocks (SNAP!). This allows students with no experience at all to avoid many common frustrations beginning programmers usually meet with, such as syntax errors. It also allows us to begin with Graphical User Interfaces on day one, creating side scrolling video games in the second week of class. In the second quarter, students learn Python, use Raspberry Pi mini-computers, and learn basic circuitry using breadboards. Python is used for its readability, good use of whitespace, and overall organization. Students spend the third quarter programming VEX robots and Arduino microcontrollers in the C programming language. In the fourth quarter, students learn Java with a focus on object-oriented programming and preparation for AP Computer Science. In the final weeks of the year students learn C# and create a 2D game in the Unity Game Engine."
+    },
+    "AP COMPUTER SCIENCE": {
+        "code": "BA1010",
+        "desc": "AP Computer Science A is a yearlong course designed to introduce students to programming concepts leading to topics designated for AP exam. Students will be working with the JAVA programming language. The curriculum for the AP Computer Science A course includes all topics and the course descriptions for AP Computer Science A as described by the College Board. This course concentrates on building a strong logicfoundation, working with data structures, and implementing object-oriented designs. All students are encouraged to take the AP exam."
+    },
+	"APP AND GAME DESIGN":{
+		"code":"BC1018",
+		"desc":"Students learn to create mobile apps, 2D games and 3D games using the Unity Game Engine and the C# programming language. Students will spend the first semester of the year creating 2D mobile apps and games. Students will spend the second semester working in 3D, with more complex geometry, modeling, texturing and lighting. Students study Game Design and theories of Play. Students practice creativity and design thinking. Students work in collaborative groups to create long term projects. Students learn to playfully mod existing games as well as create their own concepts from scratch. Students learn other development concepts such as: rapid prototyping, iterative development process, market research, playtesting, creating game art, game mechanics, and programming in C# (e.g. player movement, gravity, physics, collision detection, scene selection, animation, and more)."
+	},
+	"ADVANCED COMPUTER SCIENCE":{
+		"code":"BC1019",
+		"desc":"Advanced Computer Science aims to be a class where students work to expand deeper into their programming knowledge. &nbsp;This course will have an emphasis on building and applying concepts in data structures. Students will learn such topics as generics, sets, linked lists, hashtable, queues, stacks, maps, and trees. Students will develop applications pertaining to each data structure and evaluate their performance analysis. In addition, students will explore and utilize concepts in search, sorting, design, file i/o, networking, and multithreading."
+	},
+    "ELD I LITERATURE": {
+        "code": "GC1010",
+        "desc": "ELD I Lit and Oral are challenging courses for the English Learner. These courses will develop students' skills in speaking, listening, studying, reading, writing and using the computer for word processing and research. Class activities include individual and group work, silent and shared reading, writing, class discussions, presentations and dictations. The course is aligned to the California English Language Development and Common Core Standards."
+    },
+    "ELD I ORAL": {
+        "code": "GC1011",
+        "desc": "ELD I Lit and Oral are challenging courses for the English Learner. These courses will develop students' skills in speaking, listening, studying, reading, writing and using the computer for word processing and research. Class activities include individual and group work, silent and shared reading, writing, class discussions, presentations and dictations. The course is aligned to the California English Language Development and Common Core Standards."
+    },
+    "ELD II LITERATURE": {
+        "code": "GC1020",
+        "desc": "ELD II Lit and Oral are academic courses for the English Learner. These classes will develop skills in vocabulary development, academic and colloquial language, listening, reading and writing. Students will use computers and other software programs to support academic and language acquisition. Students will learn study skills, note taking, literary analysis and problem solving through literature and non fiction texts. Class activities include individual and group work, silent and shared reading, writing, editing, class discussions, presentations, and dictations. The course is aligned to the California English Language Development and Common Core Standards."
+    },
+    "ELD II ORAL": {
+        "code": "GC1021",
+        "desc": "ELD II Lit and Oral are academic courses for the English Learner. These classes will develop skills in vocabulary development, academic and colloquial language, listening, reading and writing. Students will use computers and other software programs to support academic and language acquisition. Students will learn study skills, note taking, literary analysis and problem solving through literature and non fiction texts. Class activities include individual and group work, silent and shared reading, writing, editing, class discussions, presentations, and dictations. The course is aligned to the California English Language Development and Common Core Standards."
+    },
+    "ELD III LITERATURE": {
+        "code": "GC1030",
+        "desc": "ELD III Lit is a challenging course for the learner of the English language. ELD III is taken in conjunction with Survey of Comp & Literature SDAIE.The course will develop the students' skills in studying, reading, writing and with a focus on developing academic language. Students will become familiar with short stories, plays and short novels. Class activities include individual and group work, silent and shared reading, writing, editing, class discussions, computer skills, and presentations. The course is aligned to the California English Language Development and Common Core Standards."
+    },
+    "SURVEY/COMP LIT SDAIE": {
+        "code": "DC1011",
+        "desc": "ELD III Lit is a challenging course for the learner of the English language. ELD III is taken in conjunction with Survey of Comp & Literature SDAIE.The course will develop the students' skills in studying, reading, writing and with a focus on developing academic language. Students will become familiar with short stories, plays and short novels. Class activities include individual and group work, silent and shared reading, writing, editing, class discussions, computer skills, and presentations. The course is aligned to the California English Language Development and Common Core Standards."
+    },
+    "ELD IV LITERATURE": {
+        "code": "GC1040",
+        "desc": "ELD IV is an academic support class which focuses students on becoming proficient readers, writers, and speakers of the English language. Students use nonfiction and fiction texts to supplement and support their vocabulary acquisition and language comprehension skills in their English and other courses. ELD IV is taken in conjunction with Survey of Comp & Literatureif the student is a freshman.The course is aligned to the California English Language Development and Common Core Standards."
+    },
+    "SURVEY/COMP LIT": {
+        "code": "DC1010",
+        "desc": "ELD IV is an academic support class which focuses students on becoming proficient readers, writers, and speakers of the English language. Students use nonfiction and fiction texts to supplement and support their vocabulary acquisition and language comprehension skills in their English and other courses. ELD IV is taken in conjunction with Survey of Comp & Literatureif the student is a freshman.The course is aligned to the California English Language Development and Common Core Standards."
+    },
+    "CIVICS ELL": {
+        "code": "EI1030",
+        "desc": "1st Semester: This course is for students in ELD 2. Students will learn skills that will allow them to participate in current events review and civic engagement. The content will be focused on the three branches of government, past and present leaders and current events. 2nd Semester: The subject matter will focus on different parts of the US and Global economy. We will analyze how decisions are made in the economy and the effects of those decisions. "
+    },
+    "ECON ELL": {
+        "code": "EI1031",
+        "desc": "1st Semester: This course is for students in ELD 2. Students will learn skills that will allow them to participate in current events review and civic engagement. The content will be focused on the three branches of government, past and present leaders and current events. 2nd Semester: The subject matter will focus on different parts of the US and Global economy. We will analyze how decisions are made in the economy and the effects of those decisions. "
+    },
+    "CWI ELL": {
+        "code": "GI1130",
+        "desc": "1st Semester: This class is for ELD 1 students. The course is building Social Studies Skills including: studying, reading, listening, writing, researching, discussing, interpreting, collaborating with others, problem solving, and presenting as well as using maps, charts and graphs. The content will be focused on key American cultural events that have helped to shape the US of today. 2nd semester: This class is for ELD 1 students The subject matter for the second semester will focus on the 20th century world. Our areas of study will be: Government systems, India, Mexico and South Africa."
+    },
+    "US HISTORY SDAIE": {
+        "code": "EC3011",
+        "desc": "This course is for students in ELD 3 or 4. This course examines the causes and the events of U.S. History with primary emphasis on the 20thcentury. There is also an emphasis on geography and its significance to the history of the United States. Students gain an understanding of the relationship between power and national development and recognize historical figures as human beings with human characteristics. The course provides a body of knowledge on which to base political decisions and to relate history to current events."
+    },
+    "AMERICAN LITERATURE": {
+        "code": "DC3010",
+        "desc": "In this college preparatory, UC-approved English course, students explore personal, social, and political topics through the study and composition of literature and visual art. From their experiences in English, students develop core project concepts and content that they translate in their Freestyle media classes. In addition to developing research and writing skills through persuasive speeches, research papers, expository essays, short stories (in prose and graphic novel forms), and poetry, students will also learn to become strong presenters, technological communicators, project managers, collaborative workers, and creative problem solvers. See American Literatureunder English department section for a complete course description."
+    },
+    "AMERICAN LITERATURE HONORS": {
+        "code": "DB3018",
+        "desc": "Honors American Literature is a comprehensive course, charting the development of the collective and discordant American mind from the 1660s to the present. Essential questions explored are: What is the influence of perspective on the telling of history and stories? Where am I in accord/discord with the fragments of the American mind in our text? What are the traits of the American literary voice?"
+    },
+    "AP LANGUAGE & COMPOSITION": {
+        "code": "DA2010",
+        "desc": "In this demanding college-level course, students will learn and exercise critical thinking skills through reading, writing and discussion of a wide variety of college level non-fiction texts. Although the course is centered on the skills necessary for success on the AP Language and Composition test, the class provides abundant opportunities for practice with expository and argumentative writing and the synthesis of multiple viewpoints--skills necessary for college-level writing in any discipline. Those who pass the examination mayreceive college credit in English."
+    },
+    "AP LITERATURE & COMPOSITION": {
+        "code": "DA4010",
+        "desc": "AP Literature is a rigorous, college-level elective course designed, according to the College Board, to &ldquo;facilitate the student's transition from secondary school to college&rdquo; by engaging in the &ldquo;stimulating challenge of college-level study.&rdquo; AP Literature provides students &ldquo;with practice in the analysis of literary works and practice in the composition of essays based on their reading.&rdquo; We will read representative works from various genres and periods to practice close reading, compare and contrast stylistic and thematic concerns of different writers, and develop a sense of literary tradition. In addition, we will practice critical analysis, as well as expository, analytical and argumentative writing skills because without these skills, a college student cannot hope to do well in any courses requiring term papers or essay responses to examination questions. The workload and performance expectations require a sincere interest in and commitment to this rigorous course of study. Students will complete a senior thesis."
+    },
+    "COMP JOURNALISM": {
+        "code": "DC5051",
+        "desc": "Students will learn all of the skills necessary to become contributing members of the school newspaper staff, including the gathering, writing, and revision of news stories and editorials. Students manage the paper's business and finances using advanced desk-top publishing technology, solicit advertising, handle distribution, and do all graphics, lay-out and other design."
+    },
+    "COMPOSITION WORLD LITERATURE": {
+        "code": "DC2010",
+        "desc": "The goal of the course is to prepare college-bound sophomores for the literacy demands of higher education. Through a sequence of rigorous instructional Credits, students in this yearlong course develop advanced proficiencies in expository, analytical, narrative and argumentative reading and writing. The course presents a process for helping students read, comprehend, and respond to non-fiction and literary texts."
+    },
+    "COMP WORLD LIT SDAIE": {
+        "code": "DC2011",
+        "desc": "The goal of the course is to prepare college-bound sophomores for the literacy demands of higher education. Through a sequence of rigorous instructional Credits, students in this yearlong course develop advanced proficiencies in expository, analytical, narrative and argumentative reading and writing. The course presents a process for helping students read, comprehend, and respond to non-fiction and literary texts."
+    },
+    "INTRO TO JOURNALISM": {
+        "code": "DC5050",
+        "desc": "Introduction to Journalism helps students develop media literacy skills, as well as news, features, and opinions writing skills and technical skills necessary for mastery in the modern world of journalism. Essential questions explored: How and why do stories become news? To what extent does the audience affect what you write and how you write it? What are the ethics of journalism?"
+    },
+    "PHILOSOPHY IN LITERATURE": {
+        "code": "DC5030",
+        "desc": "Philosophy in Literature is a college-preparatory senior English class. In this course, we will study, in general, the history and development of western philosophy. We will use our understanding of Western philosophy to study and analyze the philosophical views presented in a variety of literary genres.Students develop expository, creative and reflective writing, critical reading and thinking and public speaking skills as well as the fundamentals of English mechanics and grammar. In class discussions developing skills in Socratic questioning will be an essential component of the class. Students will complete a senior thesis. "
+    },
+    "SURVEY COMPOSITION LIT.": {
+        "code": "DC1010",
+        "desc": "Survey of Literature introduces and reinforces a variety of literary genres including novels, non-fiction, short stories, poetry, plays, and online publications. Texts are investigated and analyzed through essential questions concerning community and the individual. Teachers emphasize narrative and expository writing skills, as well as fundamental research skills, proper mechanics, grammar, and usage."
+    },
+    "SURVEY COMPOSITION SDAIE": {
+        "code": "DC1011",
+        "desc": "Survey of Literature introduces and reinforces a variety of literary genres including novels, non-fiction, short stories, poetry, plays, and online publications. Texts are investigated and analyzed through essential questions concerning community and the individual. Teachers emphasize narrative and expository writing skills, as well as fundamental research skills, proper mechanics, grammar, and usage."
+    },
+    "HEALTH EDUCATION": {
+        "code": "LC1013",
+        "desc": "Health Education focuses on contemporary health issues affecting teens. This course is a one semester class required for graduation and fulfills numerous state requirements, including the California Healthy Youth Act. Students practice health enhancing skills, such as decision making, goal setting, motivational strategies, communication, assertiveness, refusal skills, analyzing influences, and coping strategies. Health is a state of well-being. Wellness is a process of becoming more mindful of the choices we make and the behaviors we engage in. Health & Wellness is a year long course that will cover all of the required health education content & standards. In addition, students will work through an effective wellness process in each of the content areas. It will include more personal analysis of our own health choices, go deeper into the root causes of risky behaviors, & provide time to practice & apply more health enhancing skills. We will cover additional social & emotional topics, such as positive psychology, neurological development, mindfulness, happiness, balance & self care, stress management, specialized communication, effective goal setting, motivation, perfectionism & failure."
+    },
+    "HEALTH & WELLNESS": {
+        "code": "LC1015",
+        "desc": "Health is a state of well-being. Wellness is a process of becoming more mindful of the choices we make and the behaviors we engage in. Health & Wellness is a year long course that will cover all of the required health education content & standards. In addition, students will work through an effective wellness process in each of the content areas. It will include more personal analysis of our own health choices, go deeper into the root causes of risky behaviors, & provide time to practice & apply more health enhancing skills. We will cover additional social & emotional topics, such as positive psychology, neurological development, mindfulness, happiness, balance & self care, stress management, specialized communication, effective goal setting, motivation, perfectionism & failure."
+    },
+    "ALGEBRA 1 ENHANCED": {
+        "code": "AI1210",
+        "desc": "This course is an entry level course but meets two periods a day. It is designed for students who are ready for Algebra but who need more practice in the basic skills (order of operations, operations on fractions, decimals and signed numbers, basic graphing, etc.)Topics covered include basic operations and properties of the real number system, linear and quadratic equations and inequalities, and basic coordinate geometry of lines. Also studied are systems of equations in two (2) variables, properties of exponents, rational expressions, irrational numbers and radicals, and word problems related to the above topics."
+    },
+    "Algebra Skill": {
+        "code": "AI1110",
+        "desc": "This course is an entry level course but meets two periods a day. It is designed for students who are ready for Algebra but who need more practice in the basic skills (order of operations, operations on fractions, decimals and signed numbers, basic graphing, etc.)Topics covered include basic operations and properties of the real number system, linear and quadratic equations and inequalities, and basic coordinate geometry of lines. Also studied are systems of equations in two (2) variables, properties of exponents, rational expressions, irrational numbers and radicals, and word problems related to the above topics."
+    },
+    "ALGEBRA II": {
+        "code": "AC3010",
+        "desc": "Algebra II expands and develops the study of the topics learned in Algebra 1. New topics covered include sequences and series, complex numbers, logarithmic, exponential and polynomial functions. Students are also introduced to conic sections and systems of equations involving more than two variables."
+    },
+    "ALGEBRA II ENHANCED A": {
+        "code": "AI3110",
+        "desc": "This is a two year Algebra II course. It covers the same content as Algebra II but more slowly and in more depth. Semester 1 of Algebra II is covered over the course of a year. In addition, more time is spent on fundamental skills necessary for understanding and successfully working with the concepts that make up the Algebra II standards. Students will have to complete both years (In Algebra II Enhanced) in order to earn the full 10 Credits of Algebra II credit."
+    },
+    "ALGEBRA II ENHANCED B": {
+        "code": "AI3111",
+        "desc": "This is a two year Algebra II course. It covers the same content as Algebra II but more slowly and in more depth. Semester 2 of Algebra II is covered over the course of a year. In addition, more time is spent on fundamental skills necessary for understanding and successfully working with the concepts that make up the Algebra II standards. Students will have to complete both years (In Algebra II Enhanced) in order to earn the full 10 Credits of Algebra II credit."
+    },
+    "ALGEBRA II-HONORS": {
+        "code": "AB3010",
+        "desc": "This course is designed for students with a high level of interest and ability in mathematics. All topics listed for Algebra II are covered. In addition, students also study permutations, combinations and probability and trigonometric functions in-depth word problems."
+    },
+    "AP CALCULUS AB": {
+        "code": "AA5010",
+        "desc": "This course meets the needs of students preparing for advanced study in college mathematics, science, or engineering. Major areas of study cover limits, functions, and the development of the differential and integral calculus of functions on onevariable. The course prepares students to take the Advanced Placement Calculus AB examination."
+    },
+    "AP CALCULUS BC": {
+        "code": "AA5011",
+        "desc": "Calculus BC is recommended for students who have a thorough knowledge of elementary functions, college preparatory algebra, geometry, and trigonometry. Calculus BC is considerably more extensive and more challenging than Calculus AB. This class is meant for students who have completed Math Analysis Honors. Students are prepared to take the Advanced Placement Calculus BC examination."
+    },
+    "AP STATISTICS": {
+        "code": "AA6010",
+        "desc": "This course meets the needs of students who wish to complete studies in a secondaryschool equivalent to a one-semester, introductory, non-calculus based college course in Statistics. Major areas of study cover exploring data, planning a study, and anticipating patterns in advance and statistical inference. This course prepares students to take the Advanced Placement Statistics exam."
+    },
+    "CALCULUS": {
+        "code": "AC5010",
+        "desc": "This course meets the needs of students preparing for advanced study in college mathematics, science or engineering. Major areas of study cover limits, functions and the development of the differential and integral calculus of functions on onevariable. Students who are interested in taking the AP test will be prepared and are encouraged to take the test."
+    },
+    "FINANCIAL MATH": {
+        "code": "AC3115",
+        "desc": "This course is designed for students with a desire to apply mathematics to everyday situations. Topics include but are not limited to: the stock market, banking services, consumer credit, automobile ownership, employment, independent living, retirement, budgeting, and filing taxes. Students will earn 10 ELECTIVE credits (not math credit) upon successful completion of the course."
+    },
+    "GEOMETRY": {
+        "code": "AC2110",
+        "desc": "This course involves the formal development of geometric skills and concepts necessary for students who will take Algebra II and other advanced courses in math. The instructional program will include consistent use of Algebra I concepts, exploratory development and demonstration of the nature of proof through logical arguments, geometric transformations, and use of problem-solving skills in the development of geometric concepts. Properties of triangles, quadrilaterals, otherpolygons, circles and polyhedra will be explored. The trigonometry of right triangles will also be studied."
+    },
+    "GEOMETRY HONORS": {
+        "code": "AB2010",
+        "desc": "This course is designed for students with a high interest and ability in mathematics. In addition to covering the regular geometry curriculum in greater depth, students will also study introductory trigonometry and non-Euclidean geometry. Strong emphasis is placed on proof, the application of algebra to geometry, including coordinate geometry."
+    },
+    "MATH MASTERY": {
+        "code": "AI0010",
+        "desc": "This class is aimed at supporting students who are not ready to take an Algebra 1 class. The focus is on developing basic skills essential to success in Algebra 1."
+    },
+    "MULTIVARIABLE CALCULUS HONORS": {
+        "code": "AB5010",
+        "desc": "Recommendations: Completed AP Calculus BC and passed the AP Calculus BC exam. This course covers integrals, derivatives in 3-dimensions, and vector calculus."
+    },
+    "STATISTICS": {
+        "code": "AC6010",
+        "desc": "This course meets the needs of students who wish to complete studies in a secondaryschool equivalent to a one-semester, introductory, non-calculus based college course in Statistics. Major areas of study cover exploring data, planning a study, and anticipating patterns in advance and statistical inference."
+    },
+    "TRIGONOMETRY/MATH ANALYSIS": {
+        "code": "AC4010",
+        "desc": "Concepts studied include trigonometry, limits, vectors, functions, complex numbers, elementary probability theory, polar coordinates, and exponential and logarithmic equations. Equations of lines and planes are also emphasized."
+    },
+    "HONORS": {
+        "code": "AB4010",
+        "desc": "This course is designed for students with a great deal of interest and ability in mathematics. It covers regular trigonometry and advanced topics in algebra, analytical geometry, limits and an introduction to calculus materials in greater depth. Students who are successful in this course most usually go on to Calculus BC.<h1 class=\"c0\" id=\"h.br022nqaoaoh\"></h1><h1 class=\"c11 c19\" id=\"h.gu4wa9z3rfgw\">"
+    },
+    "BROADCASTING": {
+        "code": "KC1050",
+        "desc": "In this TV News course, students will master the basics of video camera techniques, teleprompts, research, script writing, computer graphics, animation, video editing, and performance techniques. They will produce daily broadcasts that will be aired to the students and staff at the school site. Practical academic and career benefits of this class include interview skills, public speaking and presentation with a high degree of professionalism; technical skills in multimedia broadcast journalism; video project planning, design and development. There are also opportunities for leadership positions in the class that will give students experience in management and project direction. Students interested in this class do not need a technical background, but do need to have an interest in video storytelling, as well as a desire to improve their presentation skills, willingness to work cooperatively in a team and genuine interest in growing as broadcast journalists."
+    },
+    "PEER TUTOR": {
+        "code": "NO1060",
+        "desc": "This course provides an opportunity for students to act as peer tutors. Students who have excelled in two or more particular academic subjects and who wish to assist other students in these areas may earn elective credit for peer tutoring in the Tutorial Center. Students must secure approval from the Tutorial Center Coordinator before the counselor can complete enrollment. This is usually initiated at the beginning of each term."
+    },
+    "RALLY": {
+        "code": "OO1050",
+        "desc": "Rally is a year-long class. Students meet after school to plan performances and community activities, work on cheer routines, and support all school athletic teams through poster making and cheering at athletic events. Interested students must audition for the team andthen register for the class. Individual squad uniform and attendance at summer cheer camp are highly recommended. See MVHS website or student activities director for audition dates."
+    },
+    "TEACHER'S AIDE": {
+        "code": "SO1230",
+        "desc": "A student signs up to work directly with a teacher or in one of the school offices under the direct supervision of an adult. A maximum of ten Credits may be earned during a student's four years. The teacher or office supervisor gives the student a job description and evaluates the student's performance."
+    },
+    "STUDENT GOVERNMENT": {
+        "code": "OC1020",
+        "desc": "Student Government is an elective, student leadership class focused on collaborating with Student Activities and Ambassadors to foster a positive and supportive school community. Government students work closely with Student Activities to put on student events across the campus (See Student Activities course description for types of events). Students interested in organizing the student body, representing student body ideas, interests, and concerns and working with other student groups, staff, and administration to improve various aspects of campus life should register for the class and must attend an information meeting and campaign/apply in the spring. Students will learn relevant leadership skills such as developing agendas, budgeting, advertising and promotion, project management skills, running effective meetings, achieving group consensus, dealing with group conflicts, and much more. Depending on the position, students are either elected in school wide elections or selected via application and interview each spring to serve on the Associated Student Body (ASB) Cabinet and as District School Board student representative."
+    },
+    "STUDENT ACTIVITIES": {
+        "code": "OC1030",
+        "desc": "Student Activities is an elective, student leadership class focused on fostering a positive and supportive school culture. These students work together with Student Government and Ambassadors to put on student events across the campus. Functioning as a business within the school, ASB Student Activities fundraises, puts on the dances, rallies, wellness and PAUSE events, Civic Engagement week, the blood drives and other community service activities, lunch time sporting events, Homecoming and more! Students interested in helping shape the events on campus should sign up. In this course students will learn relevant skills such as developing agendas, budgeting, running effective meetings, achieving group consensus, dealing with group conflicts, and much more. Students will have the opportunity to apply these skills to real-life tasks and school-wide activities. Students apply and are chosen through interviews with Associated Student Body (ASB) advisors and student representatives to serve in the ASB Activities class. All grades welcome!"
+    },
+    "AMBASSADORS": {
+        "code": "OC1035",
+        "desc": "Working in unison with ASB, the Ambassadors class is an elective, student leadership class focused on fostering a positive and supportive school culture. Goals of the course include supporting the well-being of our students, building identity safety within and outside the classroom to unlock the full academic potential of all students, and fostering a more resilient, inclusive, and supportive climate on campus. Ambassadors organizes Freshmen Orientation, New Student Tours, Transfer Student Retreats, New Student Potlucks, 8th Grade Shadow Days, Middle School Presentations, ,Socio-emotional Workshops ,Emotional-regulation and Stress Reduction Training, tailored support for our new immigrants, and peer-counseling support. The class is composed of 10th-12thgrade students from diverse social groups, middle schools, and ethnicities to represent the demographics of our school. Students will be selected based upon an application and interview process."
+    },
+    "A CAPPELLA - TREBLE VOICES": {
+        "code": "JC1110",
+        "desc": "This is an advanced choral ensemble dedicated to the study and performance of the unique and demanding choral works for treble voicing. (Soprano and Alto) A Cappella is both challenging and fast paced. Students are selected through an audition process and chosen for their commitment and musical talent. In choir you will work on vocal production techniques, sight singing, choral reading, musicianship, theory, related music history and the study of harmony. A Cappella sings in 3-6-part harmony and participates in 10-15 performances annually, including formal concerts, music festivals and a national tour. To register for this class sign up for Chamber Choir; auditions are held in the spring."
+    },
+    "A CAPPELLA - BASS CLEF VOICES": {
+        "code": "JC1110",
+        "desc": "This is an advanced choral ensemble dedicated to the study and performance of the unique and demanding choral works for bass clef voicing (Tenor and Bass). A Cappella is both challenging and fast paced. Students are selected through an audition process and chosen for their commitment and musical talent. In choir you will work on vocal production techniques, sight singing, choral reading, musicianship, theory, related music history and the study of harmony. A Cappella sings in 3-6-part harmony and participates in 10-15 performances annually, including formal concerts, music festivals. Some years A Cappella bass travels in California and Occasionally nationally for their choir tour. To register for this class sign up for Chamber Choir; auditions are held in the spring."
+    },
+    "CHAMBER CHOIR": {
+        "code": "JC1100",
+        "desc": "This choir is challenging, fast paced, fun and open to all students. Chamber Choir is appropriate for students with vocal experience and those students new to choir. In this choir you will work on vocal production techniques, sight singing, choral reading, musicianship, theory, related music history and the study of harmony. Chamber Choir sings in 3-4 part harmony in a variety of choral styles, attends Choir Champ, and participates in 4-5 concerts a year."
+    },
+    "CONCERT CHOIR": {
+        "code": "JC1030",
+        "desc": "This is an intermediate level ensemble. Concert Choir is both challenging and fast paced. Students are selected through an audition process. In choir you will work on vocal production techniques, sight singing, choral reading, musicianship, theory, related music history and the study of harmony. Concert Choir sings in 3-4 part harmony, goes on a California state choir tour, and participates in 5-10 performances annually. To register for this class sign up for Chamber Choir; auditions are held in the spring."
+    },
+    "MADRIGALS": {
+        "code": "JC1090",
+        "desc": "This advanced, mixed choral ensemble is dedicated to the study and performance of unique and demanding choral literature. In addition to addressing issues of vocal production, technique, and musicianship skills in a fast paced and challenging classroom, the Madrigals pursue an ambitious agenda for performances during the school year. This choir performs 4-8 part harmony in a variety of choral styles ranging from Renaissance to Contemporary. Madrigals participate in over 50 performances annually including formal concerts, community appearances, music festivals and an annual international tour. Students chosen to participate in this challenging group are selected on the basis of commitment and musical talent. To register for this class sign up for Chamber Choir; auditions are held in the spring."
+    },
+    "ADVANCED JAZZ DANCE": {
+        "code": "JC1211",
+        "desc": "This class is a challenging, fast-paced technique class for advanced dancers. This course places a strong emphasis on the development of each dancer through technique and performance and nurtures creative freedom though improvisation and choreography. Equal importance is placed on studies relating to dance, such as production technique, music, dance history, costume and lighting design. Students will be required to participate in dance performances as well as produce an annual dance concert at the end of the year. Dance clothes are required. Coursemay be repeated for credit. Auditions for this class will be held in April."
+    },
+    "INTERMEDIATE JAZZ DANCE": {
+        "code": "JC1212",
+        "desc": "Intermediate Dance is designed as an intermediate course for 9th through 12th grade in the areas of contemporary, jazz, and modern. These genres are studied and performed at several concerts during the year. This group may or may not travel."
+    },
+    "JAZZ DANCE": {
+        "code": "JC1210",
+        "desc": "Beginning/Intermediate dance class - Students learn the skills and techniques for jazz, modern-ballet, hip-hop, and Broadway musical dance. Class will consist of basic dance workouts with an emphasis on strength, technique, and performance. The course will accommodate beginning students; yet provide challenges for intermediate students. Freshmen will earn Visual & Perf. Arts or Elective credit. Students will be required to participate in dance performances as well as produce an annual dance concert at the end of the year. Dance clothes are required. May be repeated for credit."
+    },
+    "WORLD DANCE": {
+        "code": "JC1215",
+        "desc": "World Dance is a course designed for 9th through 12th graders in a variety of different dance styles including but not limited to Modern, Jazz, Folkloric and Afro-Brazilian Jazz. The students study and perform dances by different cultures and communities. These genres are studied and then performed at the end of each semester along with student choreography. "
+    },
+    "ACTING I": {
+        "code": "JC1410",
+        "desc": "Students will explore acting, playwriting, criticism, improvisation, pantomime, and voice, while creating their own work and developing an individualized aesthetic sense. Utilizing the development of theatre from its roots in Ancient Greece to its current manifestations, students will explore the different components that make up production and performance throughout history.This class is open to all students without audition and is required for Acting 2."
+    },
+	"ACTING II":{
+		"code":"JC1420",
+        "desc": "This class is for students committed to serious artistic development as actors on stage. Through a development of self-understanding, students will gain the self-knowledge and self-control required for performance. Students will acquire acting techniques developed throughout history, mostly in the modern era.A variety of skills will be undertaken as well, including combat, speech, diction, dialect, and improvisation. The second semester of the class will be devoted to producing a play as a class, to be performed in May. Audition or instructor approval required."
+	},
+    "ACTING III": {
+        "code": "JC1430",
+        "desc": "This class is for students committed to serious artistic development as actors on stage. Through a development of self-understanding, students will gain the self-knowledge and self-control required for performance. Students will acquire acting techniques developed throughout history, mostly in the modern era.A variety of skills will be undertaken as well, including combat, speech, diction, dialect, and improvisation. The second semester of the class will be devoted to producing a play as a class, to be performed in May. Audition or instructor approval required."
+    },
+    "STAGECRAFT I": {
+        "code": "JC1510",
+        "desc": "This is a class designed to teach the art of stagecraft to students who are interested in design, construction, painting, lighting, sound, and the many other forms of expression in this field. Each student will come to understand the fundamentals of stagecraft through lecture, demonstration, and project assignments. This class will be responsible for building the sets for the school plays and musicals, and will also be responsible for running and maintaining the theatre complex for the other performing arts disciplines, the school, and the community. A strong work ethic and initiative are required for this course, as students often need to be self-directed."
+    },
+    "STAGECRAFT II": {
+        "code": "JC1520",
+        "desc": "Stagecraft 2 is a class for students seeking to advance their work as designers and leaders in the world of technical theatre. Students assume a leadership role of technical areas in the theatre department. They will also take part in the design and implementation of design for theatre department shows and may be called upon by other performing arts departments for assistance. This class will also be responsible for running and maintaining the theatre complex for the other performing arts disciplines, the school, and the community. A strong work ethic and initiative are required for this course, as students often need to be self-directed. Instructor approval or Stagecraft 1 required."
+    },
+    "AUXILIARY UNIT": {
+        "code": "JO1211",
+        "desc": "This course is more commonly known as &ldquo;Color Guard&rdquo;. Students are not required to be musicians, but they do perform with the Marching Band and must meet all of the obligations of that group. Students in this course must also be enrolled in Marching Band. Dance experience is recommended but not required."
+    },
+    "CHAMBER ENSEMBLE": {
+        "code": "JC1250",
+        "desc": "This ensemble (unofficially referred to as 'Chamber Orchestra') is designed for qualified string players (violin, viola, cello, or string bass); it emphasizes the works of the great composers and utilizes a wide variety of musical styles. This course is open to students of intermediate to advanced ability. Concurrent enrollment in Symphony Orchestra is mandatory. Several performances, evening and morning rehearsals, and festivals may be required."
+    },
+    "MARCHING BAND": {
+        "code": "JC1200",
+        "desc": "This class meets before school on Mondays, Wednesday, and Fridays, after school on Tuesdays and Thursdays, as well as Saturday rehearsals and/or performances. The Marching Band will meet less frequently during the second quarter as detailed in the schedule given to students at the beginning of the school year. Attendance at all rehearsals and performances is mandatory. Students are expected to attend a summer camp preceding the beginning of school. Members of the Marching Band (Pep Band) perform at home football games and community events. Because most activities associated with Marching Band occur during the first quarter, students are encouraged to enroll in another, year-long music ensemble such as Symphonic Band, Wind Ensemble, Jazz Ensemble, or Orchestra. Color Guard members must be concurrently enrolled in the Auxiliary Unit."
+    },
+    "STRING ORCHESTRA": {
+        "code": "JC1270",
+        "desc": "String Orchestra is designed for qualified string players (violin, viola, cello, or string bass): a training group and performing class for beginning to intermediate musicians. Students perform as an ensemble for several concerts and festivals."
+    },
+    "SYMPHONIC BAND": {
+        "code": "JC1230",
+        "desc": "Symphonic Band is designed as a training group and performing class for beginning to intermediate musicians. Students perform as an ensemble for several concerts and festivals."
+    },
+    "SYMPHONY ORCHESTRA": {
+        "code": "JC1280",
+        "desc": "Symphony Orchestra is designed for qualified string (no guitar), wind, and percussion players. This course, which meets outside the regular school day, concentrates on full symphony works ranging from classical to modern. Winds and percussion are accepted by audition or instructor consent. "
+    },
+    "INTRO TO MUSIC": {
+        "code": "JC1310",
+        "desc": "In this class you will learn music reading, rhythm, and beginning skills on the instrument of your choice! Violin, Viola, Cello, String Bass, piano/xylophone, trumpet, trombone, flute, clarinet, saxophone, and drums. This class will also develop ensemble skills and musical expression. The class will perform ensembles in a variety of genres from different periods in history and world cultures. This class is intended for beginners, and we will provide you with access to an instrument for the year."
+    },
+    "WIND ENSEMBLE": {
+        "code": "JC1240",
+        "desc": "This course is for the more advanced instrumentalist by audition only. All styles of traditional and contemporary music are studied and performed at several concerts and festivals during the year. Evening and weekend performances may be required."
+    },
+    "WINTER AUXILIARY": {
+        "code": "JO1212",
+        "desc": "A Winter program for both Color Guard and Percussion that meets outside of the regular class day. Members perform at competitions and other campus events."
+    },
+    "GR. 9 PE CORE": {
+        "code": "PO1010",
+        "desc": "Physical Education is a California State required class. Students will demonstrate knowledge and competency in motor skills, movement patterns and strategies needed to perform dual and individual sports, rhythms/dance and aquatics. Students will achieve a level of physical fitness for health and performance while demonstrating knowledge of fitness concepts, and training principles. Students will be able to demonstrate knowledge of psychological and sociological concepts, biomechanical principles and game strategies as they apply to learning and performance of physical activities. Common Core State Standards, 6-12 English Language Arts in Science and Technical Subjects are also embedded in our program. All students must take the state physical fitness tests and pass 5 out of 6 tests in order to apply for a 10thgrade exemption for athletics, fall marching band, dance or cheerleading."
+    },
+    "GR. 10-12 WEIGHT TRAINING": {
+        "code": "PO1230",
+        "desc": "Students will enter this class with basic knowledge of weight training/CrossFit from Physical Education 9. They will understand proper safety, biomechanics and procedures to partake in more advanced weight lifting techniques using Olympic weights. Plyometrics, power/aqua/speed training, Kettlebell lifts and nutrition will also be discussed. This is a year long class, but can be taken as a semester if desired if the student has passed 5 out of 6 of the Physical Fitness Tests."
+    },
+    "GR. 10-12 ADVANCED WEIGHT TRAINING": {
+        "code": "PO1231",
+        "desc": "Students who have successfully completed Intermediate Weight Training and/or are a Varsity Athlete for MVHS are able to enroll in this course. Advanced Olympic Lifting skills will be taught and skills learned in Intermediate Weight Training will be further focused on. This course is primarily for Varsity Athletes that are weight training for their specific sport. This is a year long class, but can be taken as a semester if desired if the student has passed 5 out of 6 of the Physical Fitness Tests."
+    },
+    "GR. 10-12 TEAM SPORTS": {
+        "code": "PO1260",
+        "desc": "Students will partake in a variety of sports that take place on ANY field. Examples of some of the sports that will be played are Soccer, Football, Softball, Ultimate Frisbee, and a variety of cardiovascular activities to improve their performance. Students will also partake in self-defense/tumbling. This is a year long class, but can be taken as a semester if desired if the student has passed 5 out of 6 of the Physical Fitness Tests."
+    },
+    "GR. 10-12 TOTAL FITNESS": {
+        "code": "PO1270",
+        "desc": "Students will partake in all levels of Individual fitness activities. Examples are Yoga, Pilates, Fitness Training, Power Walking, Swimming, and Cardiovascular Health. Students will also partake in a self-defense/tumbling and nutrition guidance will also be discussed. This is a year long class, but can be taken as a semester if desired if the student has passed 5 out of 6 of the Physical Fitness Tests. At the end of the year, students will be able to create a fitness plan for themselves, know places in the community to where they can continue their fitness journey at an affordable cost, and share their passion for a healthier lifestyle with others with their new found knowledge."
+    },
+    "ANATOMY & PHYSIOLOGY": {
+        "code": "CC4025",
+        "desc": "Anatomy & Physiology is a life-science course that covers the science of how our body works. We will use research, dissections, labs, activities, surgical videos, and several unit-long projects alongside typical class instruction in order to review body structures and functions. There is an emphasis on safety in this course as we use hazardous lab equipment and dissect specimens. *Recommended: Successful completion of Biology & Chemistry. "
+    },
+    "AP BIOLOGY": {
+        "code": "CA1010",
+        "desc": "This second year biology course is designed to be equivalent to a general biology course taken in the first year of college.The three areas of study will be: a) molecules and cells, b) genetics and evolution, and c) organisms and populations. In addition to submitting reports on the integrated labs that accompany each unit, students will be exposed to a more college-like learning environment and expected to have or develop skills to be able to connect and apply concepts. This course is good preparation for the Biology Subject Test and Advanced Placement Biology Test. Enrollment for these tests is optional and not a requirement of the course or calculated into the class grade.*Recommended: Successful completion of Biology/Biology Honors as well as successful completion of Chemistry/Chemistry Honors. Concurrent enrolment in Chemistry Honors will be considered on a case by case basis."
+    },
+    "AP CHEMISTRY": {
+        "code": "CA2010",
+        "desc": "This is a second year chemistry course designed to be the equivalent of a general chemistry course in the first year of college. Topics include: atomic theory and structure, periodic relationships, thermodynamics, states of matter, reaction types, acid/base equilibria, kinetics, laboratory measurements, intermolecular forces and descriptive chemistry. Intentof this course is to prepare students to take the Advanced Placement Chemistry examination, and it is the expectation of the instructor that all students enrolled will take the exam."
+    },
+    "AP ENVIRONMENTAL SCIENCE": {
+        "code": "CA4010",
+        "desc": "Students will learn the curriculum to successfully pass the AP Environmental Science test. Of equal importance, students will learn the multidisciplinary approaches used to assess, monitor, and abate problems within the environment we live. After completing the course, students will be able to assess their role within the environment and make personal decisions that will lead to an environmentally sustainable future. Because we are studying the environment, great emphasis will be placed on conducting real science. Due to the complexity of society, this course also seeks to incorporate social sciences such as economics, politics, ethics, and law to understand real-world perspectives on environmental problems."
+    },
+    "AP PHYSICS 1": {
+        "code": "CA3010",
+        "desc": "This course prepares students to take the Advanced Placement Physics 1 test. This class is a survey class and covers many topics in physics including kinematics, mechanics, rotational motion, momentum, impulse, energy, mechanical waves, and electricity. Special emphasis will be placed on using physics models to understand content and laboratory investigation to derive equations. The physics topics will be covered at a faster pace, in greater depth, and with a higher level of mathematical sophistication than in the regular physics course. Prospective students should be very comfortable with using mathematics to solve problems. Expect three to five hours of homework per week."
+    },
+    "AP PHYSICS C": {
+        "code": "CA3039-42",
+        "desc": "ThIs is a second year physics course designed to be the equivalent of a general physics course in the first year of college. This course prepares students to take the Advanced Placement Physics C tests in mechanics and electricity and magnetism (E&M). Mechanics is the branch of physics that is concerned with quantifying the motion of bodies. Topics include velocity, acceleration, force, gravitation, energy, momentum and rotational motion. E&M is the study of the causes and effects of electromagnetic fields. These topics will be covered with a higher level of mathematical sophistication and at a much faster pace than either the regular physics, or AP Physics 1 courses. Prospective students should be comfortable with using mathematics to solve problems. Expect three to five hours of homework per week."
+    },
+    "BIOLOGY": {
+        "code": "CC1010",
+        "desc": "This course involves the study of life and the inter-relationships that exist among all living organisms and their environment. The teaching of biological concepts involves the completion of laboratory experiments, lecture/discussions, videos, projects, and reading assignments. Biology is an essential component of a student's four-year science program."
+    },
+    "BIOLOGY HONORS": {
+        "code": "CB1010",
+        "desc": "Biology Honors is a challenging first year of biology for science-oriented students. The course covers the topics covered in a general biology course, but at much greater depth and at a faster pace. There is an emphasis on independent learning, independent inquiry, and skills development outside of classroom time. The course uses an honors-level biology textbook that covers content in more depth. Topics in honors biology are not covered in the same order as general biology, making it more difficult to transfer between classes."
+    },
+    "CHEMISTRY": {
+        "code": "CC2010",
+        "desc": "Chemistry is a course designed to develop student understanding of the basic concepts underlying our knowledge of the composition of matter and the changes in composition that matter undergoes. The course emphasizes mastering techniques of chemical exploration in laboratory exercises and the application of chemical principles in activities that lend themselves to group problem solving sessions."
+    },
+    "CHEMISTRY HONORS": {
+        "code": "CB2010",
+        "desc": "This is a challenging first year chemistry course designed to strengthen students' logical reasoning skills and problem solving abilities. There are more chemical concepts covered than in the regular chemistry course, and there is greater depth to the coverage of each topic. The level of laboratory work and attendant write-ups follows this accelerated trend."
+    },
+    "ENVIRONMENTAL SCIENCE": {
+        "code": "CC4010",
+        "desc": "Environmental Science is a class designed to provide students with the scientific principles, concepts, and methodologies required to understand the interrelationships of the natural world. Environmental Science combines ideas and information from Biology, Chemistry, and Earth Science, as well as the social science fields of Economics and Political Science. Topics of study include Earth's systems, human population, land and water use, energy sources, and global change. Students will combine their scientific knowledge with perspectives from history and economics to examine progress in the field of environmental science."
+    },
+    "PHYSICS": {
+        "code": "CC3010",
+        "desc": "This is an introductory course in which students learn the fundamental laws of physics and how they relate to the everyday world in which we live. Students complete various experiments and activities, including both hands-on and computer assisted labs, problem sets and projects. Students gain both a mathematical and conceptual understanding of the basic laws of physics while strengthening their logical reasoning and problems solving skills. Topics include mechanics and dynamics (motion), energy and momentum, waves and astronomy.*Recommended: Successful completion of Biology, Chemistry, Algebra I and Geometry. "
+    },
+    "PRE-BIOLOGY": {
+        "code": "CC1012",
+        "desc": "Pre-biology is a class designed for English language learners and introduces key topics in biology, such as ecology, photosynthesis and cellular respiration, anatomy and physiology, and genetics. Teachers focus on both science and English content to ensure that students are ready for further science courses at Mountain View High School and beyond."
+    },
+    "PRE-ENVIRONMENTAL SCIENCE": {
+        "code": "CC4012",
+        "desc": "Pre-environmental science is a class designed for English language learners and introduces key topics in environmental science, such as experimental design, ecology, energy, and current environmental disasters and human responses. Teachers focus on both science and English content to ensure that students are ready for further science courses at Mountain View High School and beyond."
+    },
+    "AP EUROPEAN HISTORY": {
+        "code": "EA2010",
+        "desc": "This challenging college-level course covers the history of Europe from the Renaissance to the present. Students study history in conjunction with an examination of the art, music, literature, and philosophy upon which Western cultural traditions rest. Research, writing, and study skills are emphasized. AP European is one of four options for sophomores that include CWI, Social Justice, or AP World History. All sophomores are required to take one of these four courses."
+    },
+    "AP MACROECONOMICS": {
+        "code": "EA4020",
+        "desc": "AP Macroeconomicsis a course that specializes in macroeconomic concepts and applications, with a particular focus on the national and global economy and forces that affect these including price-level determination, economic performance measures, stabilization policies and international trade. Thiscourse is designed to be your first exposure to economics and the economic approach to decision making.The course focuseson the following goals:Create an understanding of the economic approach to decision making;Introduce the tools and methods economists use for problem solving; Learn to analyze a variety of graphical models;Develop a basic understanding of how policies impact economic growth on a national and international level."
+    },
+    "AP PSYCHOLOGY": {
+        "code": "EA4030",
+        "desc": "AP Psychology is a year-long elective course offered to 11th and 12 grade students that is designed to introduce students to the systematic and scientific study of the behavior and mental processes of human beings and other animals. Students are exposed to the psychological facts, principles, and phenomena associated with each of the major subfields of psychology. Students also learn about the ethics and methods psychologists use in their science and practice. Successful completion of this course will prepare students to take the AP exam in May."
+    },
+    "AP US GOVERNMENT & POLITICS": {
+        "code": "EA4010",
+        "desc": "AP US Government & Politics:is an in depth study of thestructures of the American government system and the policy outcomes that these structuresproduce. Essential goals of this course include strengthening reading, writing, and criticalthinking skills as they relate specifically to the study of American government and politics, aswell as analyzing and interpreting data relevant to the political process. The following topicswill be covered in this course: 1. Constitutional Underpinnings of the U.S. Government; 2.Political Beliefs and Behaviors; 3.Political Parties, Interest Groups, and Mass Media; 4.Institutions of National Government; 5. Civil Rights and Civil Liberties"
+    },
+    "AP US HISTORY": {
+        "code": "EA3010",
+        "desc": "The course surveys American history from the colonial period to the present. It is designed to prepare students for intermediate and advanced college courses and requires performance equivalent to a full year introductory college course. Students read extensively and engage in note taking, write essays, and are expected to participate often inclass discussions. Upon completing this course, students may take the Advanced Placement examination."
+    },
+    "SOCIAL JUSTICE": {
+        "code": "EC4410",
+        "desc": "Social Justice is a one semester course that will teach students about historical and contemporary movements for social change. The course will focus on issues related to race, gender, culture, sexual orientation, immigration, environmental justice, and will include local, national and international case studies. Students will learn about the relationship between the law and struggles for social justice and various forms of community activism. Students will design and carry out a Social Research & Civic Action project based on an issue that they are passionate about. Social Justice is one of four options for sophomores that include CWI, AP European or AP World History. All sophomores are required to take one of these four courses."
+    },
+    "AP WORLD HISTORY": {
+        "code": "EA2030",
+        "desc": "This challenging college level course will develop a greater understanding of global history from 1200 to the present. Students will trace the development and changes in societies through six themes that include governance, technology and innovation, social interaction and organizations. Students will further develop their historical thinking skills including evaluating different historical arguments as well as creating their own interpretations through the analysis of primary documents. Successful completion of this course will prepare students to take the AP exam in May. AP World is one of four options for sophomores that include CWI, Social Justice or AP European.. All sophomores are required to take one of these four courses."
+    },
+    "CIVICS": {
+        "code": "EC4010",
+        "desc": "This course involves discussion and analysis of the main issues confronting American government in the context of our political and legal system. Students study the structure of our government and learn how to be participating citizens. Topics such as the legislative/executive/judicial system, administration of justice, civil liberties and civil rights and civic participation will be covered."
+    },
+    "CONTEMPORARY WORLD ISSUES": {
+        "code": "EC1110",
+        "desc": "CWI is a one semester course where students will examine the world's political, economic and cultural history from the Cold War to the present. As we study a variety of regions of the world, students will continue to develop the foundational social science and general study skills that will ensure success in junior and senior year offerings in the department. CWI is one of four options for sophomores that include Social Justice, Ap European or AP World History. All sophomores are required to take one of these four courses."
+    },
+    "ECONOMICS": {
+        "code": "EC4020",
+        "desc": "This one-semester course provides an overview of the field of economics. Students are introduced to economic theories with an emphasis on practical applications. Topics in both microeconomics and macroeconomics are covered."
+    },
+    "US HISTORY": {
+        "code": "EC3010",
+        "desc": "This course examines the causes and the events of U.S. History with primary emphasis on the 20thcentury. There is also an emphasis on geography and its significance to the history of the United States. Students gain an understanding of the relationship between power and national development and recognize historical figures as human beings with human characteristics. The course provides a body of knowledge on which to base political decisions and to relate history to current events."
+    },
+    "WORLD STUDIES": {
+        "code": "EC1010",
+        "desc": "This is an introductory social studies course for all ninth graders. The purpose of the course is to prepare students to exercise their democratic rights and responsibilities in a rapidly changing, complex global society. Students will focus on political, social, and cultural history as they examine the major developments in modernworld from the 1750's to the 1970's. Students will also develop foundational social science skills in writing and critical thinking as well as study skills that will ensure success in future offerings in the department."
+    },
+    "AP JAPANESE LANG/CULTURE": {
+        "code": "FA4014",
+        "desc": "This is an advanced level language course that has been designed to help students refine and further develop their proficiency in Japanese through authentic written and audio materials as well as to promote and improve higher-level thinking skills. This includes integration of the four language skills: reading, speaking, listening and writing. Students will need to integrate skills to either create oral presentations or write essays. The term integrated skills refers to the ability to integrate reading, listening and writing skills by interpreting and synthesizing information from two or three different sources to support and/or defend ideas presented in an essay or oral presentation. The course is conducted entirely in Japanese. In addition, students will also learn about important contemporary and historical issues, significant works of literature and art, cultural aspects of the Japanese culture, and everyday life. Students who enroll will also prepare to take the Advanced Placement Exam in Japanese Language."
+    },
+    "AP SPANISH LANG/CULTURE": {
+        "code": "FA2015",
+        "desc": "This is an advanced level language course that has been designed to help students refine and further develop their proficiency in Spanish through authentic written and audio materials as well as to promote and improve higher-level thinking skills. This includes integration of the four language skills; reading, speaking, listening and writing. Students will need to integrate skills to either create oral presentations or write essays."
+    },
+    "AP SPANISH LIT/CULTURE": {
+        "code": "FA2017",
+        "desc": "The AP&reg; Spanish Literature and Culture course is designed to provide students with a learning experience equivalent to that of an introductory college course in literature written in Spanish. The course introduces students to the formal study of a representative body of texts from Peninsular Spanish, Latin American, and U.S. Hispanic literature. The course provides opportunities for students to demonstrate their proficiency in Spanish across the three modes of communication (interpersonal, interpretive, and presentational) and the five goal areas (communication, cultures, connections, comparisons, and communities) outlined in the Standards for Foreign Language Learning in the 21stCentury. The overarching aims of the course are to provide students with ongoing and varied opportunities to further develop their proficiencies across the full range of language skills &mdash; with special attention to critical reading and analytical writing &mdash; and to encourage them to reflect on the many voices and cultures included in a rich and diverse body of literature written in Spanish. All of the works included on the official AP Spanish Literature reading list are taught and read during the academic year. No abridged versions or films are used in place of text. This course prepares students for the Advanced Placement Spanish Literature and Culture Exam."
+    },
+    "FRENCH I": {
+        "code": "FC1010",
+        "desc": "This course is designed for students who have had little to no exposure to the French language or students who have had less than one year of high school French. The student is taught to understand, speak, read, and write the language, with emphasis on conversation and practical application. A working vocabulary is developed in context, as are the basic grammatical structures of the language. Students are introduced to culture and customs from various French-speaking regions and countries."
+    },
+    "FRENCH II": {
+        "code": "FC1011",
+        "desc": "This course is designed for students who have had one year of high school French language study or two years of middle school French language study.This course continues the work of the first year in all four language skills: speaking, listening, reading and writing. In addition, students continue to develop their understanding of culture and customs from various French-speaking regions and countries."
+    },
+    "FRENCH III": {
+        "code": "FC1012",
+        "desc": "This course is designed for students who have had two years of high school French language study. This course continues the work of the second year in all four language skills: speaking, listening, reading, and writing. In addition, students continue to develop their understanding of culture and customs from various French-speaking regions and countries."
+    },
+    "FRENCH III HONORS": {
+        "code": "FB1013",
+        "desc": "This course is designed for students who have had two years of high school French language study. This course continues the work of the second year in all four language skills: speaking, listening, reading, and writing. In addition, students continue to develop their understanding of culture and customs from various French-speaking regions and countries. Students may be exposed to some additional concepts, and/or some concepts may be taught more in depth than French III. "
+    },
+    "FRENCH V HONORS": {
+        "code": "FB1016",
+        "desc": "In French V H, students continue to refine their speaking, writing, reading and listening skills. Students read and interpret selected French novels and texts, discuss contemporary issues, study and discuss the history and culture of the French-speaking world. Students get the opportunity to study culture and civilization via various French films. The grade for this course is weighted for both UC and high school credit."
+    },
+    "JAPANESE I": {
+        "code": "FC4010",
+        "desc": "This course is designed for students who have had no or little Japanese language study. The student is taught to understand, speak, read, and write the language, with an emphasis on conversation and practical application. A working vocabulary is developed in context, as are the basic grammatical structures of the language. In addition to listening and oral drills, there are readings and written grammatical exercises. Students are introduced to culture and customs extensively through skits, music, videos, food, and magazines."
+    },
+    "JAPANESE II": {
+        "code": "FC4011",
+        "desc": "This course is a continuation of Japanese I, further developing the four skills of speaking, listening, reading, and writing. The goal of the second year is to give students a working knowledge of Japanese in both formal and informal settings. Contemporary topics, vocabulary, and culture are stressed. A variety of activities, including skits, projects, food days, and videos are included to enhance students' understanding of life in Japan and their use of the language."
+    },
+    "JAPANESE III": {
+        "code": "FC4012",
+        "desc": "This course is a continuation of Japanese II, further developing the four skills of speaking, listening, reading, writing. At this level the class is conducted in Japanese and students are expected to speak only in the target language in class. Students will gain a deeper understanding of grammatical structures, as it is the main focus. Grade complexity in the students&#39; written work and spoken expression is developed with original and spontaneous self-expression being emphasized. A variety of activities, including skits, projects, food days, and videos are included to enhance students&#39; understanding."
+    },
+    "JAPANESE III H": {
+        "code": "FB4010",
+        "desc": "This course is a continuation of Japanese II. It moves along with Japanese III, but Honors students will be required to learn all concepts at a deeper level. Weekly quizzes in kanji, vocabulary, and grammar, while demonstrating spontaneous oral and written expression about a variety of topics, are added in this course. In addition to extended reading lengths, topic comprehension assessments occur regularly. This course will prepare students for AP Japanese."
+    },
+    "JAPANESE IV": {
+        "code": "FC4013",
+        "desc": "This course is a continuation of Japanese III, further developing the four skills of speaking, listening, reading, and writing in both formal and informal forms. In addition, honorific and humble forms are introduced. Upon completing the course, students will have been introduced to all the major structural patterns of contemporary Japanese and will have begun to emphasize vocabulary building through the study of situation oriented materials that stress communicative competence. Intensive practice in speaking, listening, reading, and writing will be conducted. This is not an Advanced Placement Course."
+    },
+    "MANDARIN/CHINESE I": {
+        "code": "FC5010",
+        "desc": "Mandarin/Chinese I is designed to provide the basic communicative skills in Mandarin, Chinese culture and history. The student is required to develop a basic mastery of the four language skills: speaking, listening, reading, and writing. The students will learn Hanyu pinyin, radicals, word usages, sentence patterns, basic dialogues and short sentences in real life situations. The course also presents an introduction to the culture/history of the Mandarin/Chinese-speaking world. The students are able to use formulaic language to engage in conversations and appropriate responses in a culturally authentic way. This course is for beginning students or non-native speakers only."
+    },
+    "MANDARIN/CHINESE II": {
+        "code": "FC5011",
+        "desc": "In this course the students will continue to develop a mastery of the four language skills - speaking, listening, reading, and writing. They will further develop their oral skills, their knowledge of Chinese culture/history, and the skills needed to interact positively with members of the culture. They will become more confident in using the vocabulary studied, becoming more skillful in the conversational use of sentence patterns structures. They will develop needed skills in reading for content and begin to acquire basic skills in composition simultaneously. They will demonstrate an understanding of the general meaning, key ideas, and some details in authentic texts."
+    },
+    "MANDARIN/CHINESE III": {
+        "code": "FC5012",
+        "desc": "Mandarin/Chinese III is designed to bring the students to a level where they are able to articulate clearly most survival needs and many social demands. They are able to show increased spontaneity in speaking. The students have fair control of basic grammar, including the tense forms when communicating. They will create more sophisticated sentence structures in both formal and informal situations. The students will be able to describe, narrate, explain information, exchange personal opinions and statements in various topics beyond survival needs.  Writing will include basic essays, reports, summaries, and translations. They will demonstrate an understanding of the main idea and key details in authentic texts.         "
+    },
+    "MANDARIN/CHINESE IV": {
+        "code": "FC5013",
+        "desc": "Mandarin/Chinese IV is designed to enable the students to participate extensively in the life of the Chinese society. The students should be able to maneuver most social situations and casual conversations regarding current events. They will be able to discuss, compare and contrast, support or persuade an opinion in various topics. Grammar and writing skills will be reviewed and refined in the context of cultural studies, which will include the study of Chinese literature, art, music and customs.They will demonstrate an understanding of the main idea and details in authentic texts. They are able to use extended paragraphs to produce formal communications related to the external environment.."
+    },
+    "MANDARIN/CHINESE IV H": {
+        "code": "FC5014",
+        "desc": "Mandarin/Chinese IV is designed to enable the students to participate extensively in the life of the Chinese society. The students should be able to maneuver most social situations and casual conversations regarding current events. They will be able to discuss, compare and contrast, support or persuade an opinion in various topics. Grammar and writing skills will be reviewed and refined in the context of cultural studies, which will include the study of Chinese literature, art, music and customs.They will demonstrate an understanding of the main idea and details in authentic texts. They are able to use extended paragraphs to produce formal communications related to the external environment.."
+    },
+    "SPANISH l": {
+        "code": "FC2010",
+        "desc": "This course is designed for students who have had little to no exposure to the Spanish language or students who have had less than one year of high school Spanish. The student learns to understand, speak, read, and write basic Spanish, with an emphasis on conversation and practical application. A working vocabulary is developed in context, as are the basic grammatical structures of the language. Students are introduced to culture and customs from the various hispanic cultures."
+    },
+    "SPANISH II": {
+        "code": "FC2011",
+        "desc": "This course is designed for students who have had one year of high school Spanish language study or two years of middle school Spanish language study. This course continues the work of the first year in all for language skills: speaking, listening, reading, and writing. In addition, students continue to develop their understanding of culture and customs from the various hispanic cultures."
+    },
+    "SPANISH II HONORS": {
+        "code": "FB2012",
+        "desc": "This course is designed for students who have had one year of high school Spanish language study or two years of middle school Spanish language study. This course continues the work of the first year in all for language skills: speaking, listening, reading, and writing. In addition, students continue to develop their understanding of culture and customs from the various hispanic cultures. This course moves at a faster pace and goes more in depth than Spanish II."
+    },
+    "SPANISH III": {
+        "code": "FB2013",
+        "desc": "This course is designed for students who have had two years of high school Spanish language study. This course continues the work of the second year in all four language skills: speaking, listening, reading, and writing. In addition, students continue to develop their understanding of culture and customs from the various hispanic cultures. "
+    },
+    "SPANISH III HONORS": {
+        "code": "FB2014",
+        "desc": "This course is designed for students who have had two years of high school Spanish language study. This course continues the work of the second year in all four language skills: speaking, listening, reading, and writing. In addition, students continue to develop their understanding of culture and customs from the various hispanic cultures. This course moves at a faster pace and goes more in depth than Spanish III."
+    },
+    "SPANISH III H for SPANISH SPEAKERS": {
+        "code": "FB2111",
+        "desc": "The Spanish III H for Spanish Speakers course provides continuing language instruction for students who have developed proficiency in Spanish (mainly but not exclusively) because it is their first language or is spoken extensively in the home. The course utilizes a language arts approach comparable to that of English courses offered to English-speaking students. It develops all language skills, emphasizing critical reading and writing, as well as the acquisition of academic vocabulary. It provides themes that are aligned with the AP Language and Culture course as well as objectives that are aligned with the Common Core Standards. This course is designed to benefit students of various backgrounds who possess an intermediate level of the language: 1) students born in the U.S. who speak and read Spanish at home, 2) students born in Spanish-speaking countries who have had formal education in Spanish, 3) students born in Spanish-speaking countries whose educational experience has been limited to English, 4) students who have participated in a Spanish Immersion program in the United States."
+    },
+    "SPANISH IV": {
+        "code": "FC2015",
+        "desc": "This is an advanced level language course designed to help students refine and further develop their skills in Spanish. Students will be working to increase their Spanish vocabulary and improve their use of grammatical structures. Students discuss and write about issues and themes presented in a variety of genres (literature, films, songs, etc.). The class is conducted in Spanish and students are expected to speak only Spanish in class. AP test preparation is not part of this class."
+    },
+    "ENGLISH 4": {
+        "code": "TC1030",
+        "desc": "English 4is a UC-approved, college-preparatory senior English class. In this course, students examine themes and questions relating to psychology and philosophy through a variety of literary fiction and nonfiction genres. Students develop expository, creative and reflective writing, critical reading and thinking, and public speaking skills as well as learning the fundamentals of English mechanics and grammar. In class discussions developing skills in Shared Inquiry will be an essential component of the class. Students will create an extended research paper and Senior project, as well as a formal presentation of their portfolio of their work to a panel of experts in a specific professional field related to their Freestyle work."
+    },
+    "DIGITAL MEDIA I": {
+        "code": "TC1060",
+        "desc": "This required course provides students a foundation to producing digital media for communicating ideas in various formats. Students produce photographic, illustrated, 3D and industrial art, short videos, short animations, voice and music productions. Students learn to feature their work on personal websites. Students use modern computer hardware, various studio recording equipment, and industry standard software applications such as Dreamweaver, Premiere Pro, Photoshop, Illustrator, InDesign, After Effects, Audition, Trapcode, ZapWorks, Reason, and Pro Tools. Students will also learn to use WordPress, HTML5 debugging and the use of Cascading Style Sheets (CSS3) for web production."
+    },
+    "DIGITAL MEDIA II": {
+        "code": "TC1063",
+        "desc": "This required course provides students a more advanced foundation to producing digital media for communicating ideas in various formats. Students produce photographic, illustrated, 3D and industrial art, short videos, short animations, voice and music productions. Students learn to feature their work on personal websites. Students use modern computer hardware, various studio recording equipment, and industry standard software applications such as Dreamweaver, Premiere Pro, Photoshop, Illustrator, InDesign, After Effects, Audition, Trapcode, ZapWorks, Reason, and Pro Tools. Students will also learn to use WordPress, HTML5 debugging and the use of Cascading Style Sheets (CSS3) for web production. Students in this class will develop deeper into previous applications and will also receive an introduction to JavaScript/jQuery."
+    },
+    "DESIGN I": {
+        "code": "TC1040",
+        "desc": "Design I, an elective course at Freestyle Academy, provides a foundation in the elements and principles of art and design via digital applications. Students create digital photography, illustrations, and graphic designs using various computer programs. Students learn to use digital DSLR cameras, lighting equipment, Cintiq interactive pen displays, iPads for art production. Software combines traditional art with digital art using Photoshop, Illustrator, InDesign, Painter Pro, and Zen Brush."
+    },
+    "DESIGN II": {
+        "code": "TC1043",
+        "desc": "Design II, an elective course at Freestyle Academy, continues the exploration of the elements and principles of visual design in a series of longer term, larger scale, more technically demanding projects through a series of projects involving traditional and non-traditional photography as well as more advanced new media challenges. Students will also use Adobe Illustrator, InDesign and Photoshop for various projects but at a more advanced level. They learn more unconventional and cutting-edge techniques in photography and the various programs using alternative lighting, different exposure techniques, and shooting more challenging objects/subjects. In addition, students will focus on critical thinking by developing the concepts behind their work, delving further into symbolism and meaning through visual art."
+    },
+    "FILM PRODUCTION I": {
+        "code": "TC1050",
+        "desc": "Film Production I, an elective course at Freestyle Academy, offers experience in pre-production, production and post-production filmmaking techniques. Instruction in story development and film analysis, storyboarding, basic camera and audio operation, and editing and special effects.Students study film form, learning basic rules of continuity shooting and editing while collaborating to develop and complete short experimental, narrative, and documentary film projects using professional film tools and resources."
+    },
+    "FILM PRODUCTION II": {
+        "code": "TC1053",
+        "desc": "Film Production II, an elective course at Freestyle Academy, introduces students to advanced skills and techniques in all aspects of the filmmaking process, while also adding experiences in the roles of writer, director, and producer. New skills include screenwriting and character development, creation of shot lists and shooting schedules, advanced cinematography and lighting, and specialized special effects. Students collaborate on video essay, screenplays and narrative films, while also developing an independent project of their own design. Editing moves beyond the basics and includes the use of post-production special effects software. Second year projects demonstrate improved cinematic aesthetic, depth, and creativity."
+    },
+    "ANIMATION I": {
+        "code": "TC1070",
+        "desc": "Animation I, an elective course at Freestyle Academy, is designed to provide students with an opportunity to continue building up their portfolio of digital work by focusing on the further study and exploration of computer animation. Students will increase their knowledge of the process of animation from initial concept and storyboarding through final rendering by using animation software and studying both traditional (2D, stop-motion, frame-by-frame) and 3D digital animation techniques."
+    },
+    "ANIMATION II": {
+        "code": "TC1073",
+        "desc": "Animation II, an elective course at Freestyle Academy, is designed to provide students with an opportunity to continue building up their portfolio of digital work by focusing on the further study and exploration of computer animation. Students will increase their knowledge of the process of animation from initial concept and storyboarding through final rendering by using animation software and studying both traditional (2D, stop-motion, frame-by-frame) and 3D digital animation techniques. "
+    }
+}
