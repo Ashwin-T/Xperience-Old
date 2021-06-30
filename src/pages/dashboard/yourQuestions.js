@@ -20,7 +20,7 @@ const YourQuestions = (params) => {
           .then((querySnapshot) => {
             querySnapshot.forEach((doc) => {
               console.log("Hi, there actually is something that matches this");
-              tempArray.push(doc.data());
+              tempArray.push(doc);
             });
             setQuestion(tempArray);
           });
@@ -28,14 +28,16 @@ const YourQuestions = (params) => {
     }
   }, [params.user]);
   return (
-    <div>
-      <div>
+    <div className="yourQuestions">
+      <div className="yourQuestionsText">
         <h1>Your Questions</h1>
-        <button>Ask New +</button>
+        <button className="boxShadow">Ask New +</button>
+        <br />
       </div>
-      <div>
+      <br />
+      <div className="individualQuestionDiv">
         {questionArray.map((doc) => (
-          <IndividualQuestion question={doc.text} numReplies={doc.numReplies}></IndividualQuestion>
+          <IndividualQuestion question={doc.data().text} numReplies={doc.data().numReplies} id={doc.id} key={doc.id} likes={doc.data().likes}></IndividualQuestion>
         ))}
       </div>
     </div>
