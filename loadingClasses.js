@@ -1,4 +1,4 @@
-// SET UP ENV FIRST AS INSTRUCTED HERE: https://firebase.google.com/docs/admin/setup
+// get API File from https://console.firebase.google.com/u/1/project/xperiance-e2fd7/settings/serviceaccounts/adminsdk and click generate new private key
 var admin = require('firebase-admin');
 const fs = require('fs');
 let classData = fs.readFileSync('./classNames2122Descs.json')
