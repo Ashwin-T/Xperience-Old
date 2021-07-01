@@ -11,18 +11,18 @@ const ReviewSubmitter = () => {
   const ratingInput = useRef();
   const timeInput = useRef();
   const stressInput = useRef();
-  const preReqInput = useRef();
   const reviewInput = useRef();
-  const formRefs = useRef([classInput, ratingInput, timeInput, stressInput, preReqInput, reviewInput])
-  const requiredRefs = useRef([classInput, ratingInput, timeInput, reviewInput])
+  const formRefs = useRef([classInput, ratingInput, timeInput, stressInput, reviewInput])
+  const requiredRefs = useRef([classInput, ratingInput, reviewInput])
   function checkRequired()
   {
 	for (var i = 0; i<requiredRefs.current.length; i++)
 	{
 		const currFormElem = requiredRefs.current[i]
-		if (!currFormElem)
+		if (!currFormElem.current.value)
 		{
 			currFormElem.current.classList.toggle('error', true)
+			alert('Make sure that you have filled in all of the input fields.') // you can do this better with changing the class on the elem, but this is just bare functionality. @sonav make this page actually decent plz
 			return false;
 		}
 	}
@@ -34,7 +34,12 @@ const ReviewSubmitter = () => {
 	{
 		return;
 	}
-	const classId = classNames[classInput.current.value].code;
+	const classId = classNames[classInput.current.value]?.code;
+	if (!classId)
+	{
+		alert('Your class name, '+classInput.current.value+' is not in our list of classes. Please choose a class in the dropdown.')
+		return;
+	}
 	const uid = firebase.auth().currentUser.uid;
 	console.log('submitting')
 	sha256(uid + classId)
@@ -52,7 +57,8 @@ const ReviewSubmitter = () => {
 			userRef.set({reviewIds:[reviewId]})
 				.then(makeReview)
 				.catch(e=>{
-					console.log('couldnt create user')
+					console.log(e)
+					console.log('user already exists. Therefore the review already exists! We need to decide if we want to allow reviews to be edited/deleted!!')
 				})
 		})
 		function makeReview()
@@ -65,7 +71,6 @@ const ReviewSubmitter = () => {
 				class: classInput.current.value,
 				rating: Number(ratingInput.current.value),
 				timeSpentPerNight: Number(timeInput.current.value),
-				similarClasses: preReqInput.current.value,
 				stressLevel: Number(stressInput.current.value),
 				review: reviewInput.current.value,
 			})
@@ -86,6 +91,11 @@ const ReviewSubmitter = () => {
       <div className="mainText" style={{ marginLeft: "7%", width: "" }}>
         <h1 style={{ borderBottom: "2px solid #D4AF37" }}>Submit A Review</h1>
       </div>
+	  <datalist id='classes'>
+			{Object.keys(classNames).map(className=>{
+				return <option value={className}></option>
+			})}
+		</datalist>
       <form id="enterReview" style={{ marginLeft: "7%" }} onSubmit={handleSubmit}>
         <div className="titlesforReview required">Class Name</div>
         <input type="text" ref={classInput} list="classes" placeholder="Search for the class you are reviewing..." style={{ fontSize: "17px" }}></input>
@@ -98,11 +108,6 @@ const ReviewSubmitter = () => {
         <div className="titlesforReview required">General Review</div>
         <input ref={reviewInput} type="text" id="reviewSelector" placeholder="Write a thoughful review here!"></input>
 		<input type="Submit" id="subMainButton" className="reviewSubmit"></input>
-		<datalist id='classes'>
-			{Object.keys(classNames).map(className=>{
-				return <option name={className}></option>
-			})}
-		</datalist>
       </form>
     </div>
   );
