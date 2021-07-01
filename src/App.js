@@ -11,7 +11,7 @@ import Dashboard from "./pages/dashboard/dashboard.js";
 import { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import firebase from "./pages/firebase.js";
-import Login from "./pages/auth/login.js";
+import Login from "./pages/auth/login.jsx";
 import { useEffect } from "react/cjs/react.production.min";
 // see this is my home page and it goes to....
 

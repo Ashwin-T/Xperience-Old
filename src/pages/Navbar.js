@@ -26,9 +26,6 @@ const NavBar = (params) => {
                 <Link className='navbarOption' to='/home'>
                     Home
                 </Link>
-                <Link className='navbarOption' to='/home'>
-                    Home
-                </Link>
                 <Link to='/help' className='navbarOption'>
                     Help
                 </Link>

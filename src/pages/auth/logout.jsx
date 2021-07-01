@@ -12,7 +12,7 @@ export default function Logout(params) {
 	}, [])
 	return (
 		<>
-			{loggedOut && <Redirect to='/home'/>}
+			{loggedOut && <Redirect to='/'/>}
 			<p>logging you out...</p>
 		</>
 	)

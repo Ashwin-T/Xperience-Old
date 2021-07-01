@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import firebase from "./firebase.js";
+
 const SearchBar = (params) => {
   var [profileURL, setURL] = useState();
   useEffect(() => {

@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import Navbar from "../Navbar.js";
 import firebase from "../firebase.js";
 import YourQuestions from "./yourQuestions.js";
+import "./dashboard.css";
 const db = firebase.firestore();
 const Dashboard = (params) => {
   const [userID, setUID] = useState();
