@@ -33,6 +33,7 @@ html {
 input {
   font-family: inherit;
   background-color: var(--accent-background);
+  color: var(--content-color);
 }
 input[type="text"] {
   width: calc(clamp(80%, 500px, 100%) - 50px);
