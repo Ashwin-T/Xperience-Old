@@ -95,13 +95,14 @@ const ReviewSubmitter = () => {
 		<Slider ref={timeInput} min="0" max='180' step='15' defaultValue='0'></Slider>
         <div className="titlesforReview">Stress Level (0 is playing with puppies, 5 is finals week)</div>
 		<Slider ref={stressInput} min="0" max='5' step='1' defaultValue='0'></Slider>
-
-        <div className="titlesforReview">Pre-Req Classes</div>
-        <input type="text" ref={preReqInput} id="similarClassSelector" list="classes" placeholder="What similar classes have you taken in the past..."></input>
         <div className="titlesforReview required">General Review</div>
         <input ref={reviewInput} type="text" id="reviewSelector" placeholder="Write a thoughful review here!"></input>
-        <input type="Submit" id="subMainButton" className="reviewSubmit">
-        </input>
+		<input type="Submit" id="subMainButton" className="reviewSubmit"></input>
+		<datalist id='classes'>
+			{Object.keys(classNames).map(className=>{
+				return <option name={className}></option>
+			})}
+		</datalist>
       </form>
     </div>
   );
