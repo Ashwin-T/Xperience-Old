@@ -62,7 +62,7 @@ fs.readFile('./CourseCatalog20212022.html', 'utf-8', (err, data)=>{
 			messes up digital art & imaging description, and ELD 1 LIT/ORAL
 			messes up with acting II/acting III
 			messes up AP JAPANESE LANG/CULTURE, puts /CULTURE instead
-			
+			messes up TRIGINOMETRY HONORS name
 		*/
 	console.log(out);
 	fs.writeFile('classNames2122.json', JSON.stringify(out, null, 4), error=>{

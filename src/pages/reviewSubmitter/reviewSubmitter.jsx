@@ -105,11 +105,11 @@ const ReviewSubmitter = () => {
                         style={{ resize: "none" }}></textarea>
                     <div className='reviewSliderDiv'>
                         <div className='titlesforReview required'>Rating</div>
-                        <Slider ref={ratingInput} min='0' max='5' step='1' defaultValue='3'></Slider>
+                        <Slider key={'rating'} ref={ratingInput} min='0' max='5' step='1' defaultValue='3'></Slider>
                         <div className='titlesforReview required'>Average Time Commitment Per Day (Homework and Studying) in Minutes</div>
-                        <Slider ref={timeInput} min='0' max='180' step='15' defaultValue='60'></Slider>
-                        <div className='titlesforReview'>Stress Level (0 is playing with puppies, 5 is finals week)</div>
-                        <Slider ref={stressInput} min='0' max='5' step='1' defaultValue='3' style={{ paddingBottom: 0 }}></Slider>
+                        <Slider key={'time'} ref={timeInput} min='0' max='180' step='15' defaultValue='60'></Slider>
+                        <div className='titlesforReview'>Stress Level (1 is playing with puppies, 5 is finals week)</div>
+                        <Slider key={'time'} ref={stressInput} min='0' max='5' step='1' defaultValue='3' style={{ paddingBottom: 0 }}></Slider>
                     </div>
                 </div>
                 <input type='Submit' id='subMainButton' className='reviewSubmit'></input>
