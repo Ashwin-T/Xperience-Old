@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import Navbar from "../Navbar.js";
 import firebase from "../firebase.js";
 import YourQuestions from "./yourQuestions.js";
+import SuggestedActions from "./suggestedActions";
 import "./dashboard.css";
 const db = firebase.firestore();
 const Dashboard = (params) => {
@@ -19,10 +20,9 @@ const Dashboard = (params) => {
 
   return (
     <div>
-      <YourQuestions user={params.user} uid={userID}></YourQuestions>
-      <div>
-        <h1>Suggested Actions</h1>
-        <div>Answer questions on classes you have reviewed</div>
+      <div style={{ display: "flex" }}>
+        <YourQuestions user={params.user} uid={userID}></YourQuestions>
+        <SuggestedActions user={params.user} uid={userID}></SuggestedActions>
       </div>
     </div>
   );
