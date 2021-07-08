@@ -30,7 +30,7 @@ const YourQuestions = (params) => {
   return (
     <div className="yourQuestions">
       <div className="yourQuestionsText">
-        <h1>Your Questions</h1>
+        <h1>Your Recent Questions</h1>
         <button className="boxShadow">Ask New +</button>
         <br />
       </div>
