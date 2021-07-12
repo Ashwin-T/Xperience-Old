@@ -13,7 +13,7 @@ const SuggestedActions = (params) => {
     var tempArray = [];
     db.collection("questions")
       .where("numReplies", "==", 0)
-      .orderBy("date", "asc")
+      .orderBy("date", "desc")
       .limit(5)
       .get()
       .then((querySnapshot) => {

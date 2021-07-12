@@ -9,22 +9,15 @@ const YourQuestions = (params) => {
     console.log(params.user);
     if (params.user !== null) {
       console.log("HELP ME");
-      params.user.providerData.forEach((profile) => {
-        //   changeID(profile.uid);
-        var tempArray = [];
-        db.collection("questions")
-          .where("uid", "==", profile.uid)
-          .orderBy("date", "desc")
-          .limit(5)
-          .get()
-          .then((querySnapshot) => {
-            querySnapshot.forEach((doc) => {
-              console.log("Hi, there actually is something that matches this");
-              tempArray.push(doc);
-            });
-            setQuestion(tempArray);
-          });
-      });
+      //   changeID(profile.uid);
+      console.log(firebase.auth().currentUser.uid);
+      var tempArray = [];
+      // db.collection("users")
+      //   .doc(profile.uid)
+      //   .get()
+      //   .then((doc) => {
+      //     console.log(doc.data().questionIds);
+      //   });
     }
   }, [params.user]);
   return (
