@@ -5,19 +5,32 @@ import IndividualQuestion from "./individualQuestion.js";
 const db = firebase.firestore();
 const YourQuestions = (params) => {
   const [questionArray, setQuestion] = useState([]);
+
   useEffect(() => {
-    console.log(params.user);
     if (params.user !== null) {
-      console.log("HELP ME");
+      console.log("Received User Data 2");
       //   changeID(profile.uid);
-      console.log(firebase.auth().currentUser.uid);
-      var tempArray = [];
-      // db.collection("users")
-      //   .doc(profile.uid)
-      //   .get()
-      //   .then((doc) => {
-      //     console.log(doc.data().questionIds);
-      //   });
+
+      db.collection("users")
+        .doc(params.user.uid)
+        .get()
+        .then((doc) => {
+          var questionIdArray = doc.data().questionIds;
+          console.log(questionIdArray);
+          for (let i = 0; i != 5; i++) {
+            console.log(questionIdArray[questionIdArray.length - i - 1]);
+            if (questionIdArray.length - i - 1 >= 0) {
+              db.collection("questions")
+                .doc(questionIdArray[questionIdArray.length - i - 1])
+                .get()
+                .then((doc) => {
+                  console.log("I'm setting asynchronously");
+
+                  setQuestion((questionArray) => [...questionArray, doc]);
+                });
+            }
+          }
+        });
     }
   }, [params.user]);
   return (

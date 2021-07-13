@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { Link } from "react-router-dom";
 import SearchBar from "../searchbar.js";
 import firebase from "../firebase.js";
 import IndividualQuestion from "./individualQuestion.js";
@@ -18,7 +19,6 @@ const SuggestedActions = (params) => {
       .get()
       .then((querySnapshot) => {
         querySnapshot.forEach((doc) => {
-          console.log("Hi, there actually is something that matches this");
           tempArray.push(doc);
         });
         setQuestion(tempArray);
@@ -29,11 +29,18 @@ const SuggestedActions = (params) => {
       <div className="yourQuestionsText">
         <h1>Suggested Actions</h1>
       </div>
-      <div className="individualQuestionDiv">
+      <br />
+      <br />
+      <div className="suggestionDiv boxShadow">
+        <h2>Answer relevant questions</h2>
         {questionArray.map((doc) => (
-          <IndividualQuestion question={doc.data().text} numReplies={doc.data().numReplies} id={doc.id} key={doc.id} likes={doc.data().likes}></IndividualQuestion>
+          <IndividualQuestion question={doc.data().text} numReplies={doc.data().numReplies} id={doc.id} key={doc.id} likes={doc.data().likes} type="small"></IndividualQuestion>
         ))}
       </div>
+      <br />
+      <Link className="boxShadow reviewViewDiv">
+        <h2>View your Reviews</h2>
+      </Link>
     </div>
   );
 };
